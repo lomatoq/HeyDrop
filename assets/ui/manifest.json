@@ -1,0 +1,11 @@
+{
+  "direction": "Playful postal stickers: cream paper, rounded violet lettering, coral actions, mint progress, yellow anticipation.",
+  "source": "Original SVG authored for this project; no third-party artwork or generated bitmap assets.",
+  "license": "Project-owned artwork; no additional third-party asset terms.",
+  "target": "Browser DOM UI; desktop and mobile portrait/landscape; no textures uploaded to the 3D renderer.",
+  "assets": [
+    {"file":"hey-drop.svg","role":"Header and loading brand","dimensions":[210,74],"bytes":829,"alpha":true,"pivot":"center","collision":"none","status":"Visually reviewed at 111px and 127px CSS width"},
+    {"file":"postal-paper.svg","role":"Subtle seamless popup paper tile","dimensions":[96,96],"bytes":365,"alpha":true,"pivot":"top-left","collision":"none","status":"Repeated pattern reviewed in settings screenshot"}
+  ],
+  "developmentOnly": ["review-*.png", "validate-ui.cjs"]
+}

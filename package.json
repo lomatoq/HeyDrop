@@ -1,0 +1,16 @@
+{
+  "name": "heydrop",
+  "version": "16.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.cjs",
+    "start": "node serve.cjs",
+    "test": "node tests/domain-v14.cjs && node tests/domain-v15.cjs && node tests/domain-v16.cjs && node tests/presentation-v16.cjs && node tests/streaming-v16.cjs && node tests/build-v15.cjs",
+    "test:browser": "node tests/mechanics-v16.cjs",
+    "pack": "python package-release.py"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10",
+    "playwright-core": "1.56.1"
+  }
+}

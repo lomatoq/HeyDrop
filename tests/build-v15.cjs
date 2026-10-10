@@ -1,0 +1,11 @@
+const fs=require('node:fs'),assert=require('node:assert/strict'),path=require('node:path'),esbuild=require('esbuild');
+const root=path.join(__dirname,'..'),html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+assert(!html.includes('/*SCRIPTS*/'));
+assert(!html.includes('/*STYLE*/'));
+const script=html.split('<script type="module">')[1].split('</script>')[0];
+esbuild.transformSync(script,{loader:'js',target:'es2022'});
+for(const file of ['assets/ui/hey-drop.svg','assets/ui/postal-paper.svg'])assert(fs.existsSync(path.join(root,file)));
+assert(html.includes('id="challenge"')&&html.includes('id="boostMeter"'));
+assert(!html.includes('Palsa'));
+assert(html.includes('HeyDrop'));
+console.log('PASS generated HTML module parses, assets exist, brand and controls present');

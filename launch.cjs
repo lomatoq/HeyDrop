@@ -1,0 +1,3 @@
+const fs=require('fs'),http=require('http'),cp=require('child_process'),path=require('path');
+const url='http://127.0.0.1:8797/';function open(){cp.spawn('cmd.exe',['/c','start','',url],{windowsHide:true,detached:true,stdio:'ignore'}).unref();console.log('HeyDrop V15: '+url)}
+let done=false;const req=http.get(url,r=>{r.resume();done=true;if(r.statusCode===200)open();else start()});req.setTimeout(1000,()=>req.destroy());req.on('error',()=>{if(!done)start()});function start(){if(done==='started')return;done='started';const child=cp.spawn(process.execPath,[path.join(__dirname,'serve.cjs')],{cwd:__dirname,windowsHide:true,detached:true,stdio:'ignore'});child.unref();setTimeout(open,1400)}
