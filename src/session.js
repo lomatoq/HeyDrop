@@ -5,5 +5,5 @@ export class GameSession {
  next(){if(this.index===4)this.reset();else this.index++;}
  get total(){return this.results.reduce((sum,r)=>sum+(r?.score||0),0);}
  get usedCities(){return this.results.filter(Boolean).map(r=>r.city);}
- get label(){return `Раунд ${this.index+1} / 5 · ${this.total.toLocaleString('ru-RU')} очков`;}
+ get label(){return `Round ${this.index+1} / 5 · ${this.total.toLocaleString('en-US')} points`;}
 }

@@ -1,94 +1,106 @@
-# HeyDrop · POST! — V16, сравнительный прототип
+# HeyDrop · POST! — V16 prototype
 
-Новая версия собрана в этой же папке. `index.html` — готовая игра; `baseline-v13.html`, `baseline-v14.html` и `baseline-v15.html` сохраняют предыдущие сборки для сравнения.
+![HeyDrop cover](assets/marketing/hey-drop-cover.png)
 
-## Сравнение V16
+Remember an address, find it again on a spinning Earth, and deliver a parcel from the sky.
 
-Текущая `index.html` — V16; `baseline-v15.html` — сохранённая V15. Это прототип для оценки ощущения полёта, не утверждение о готовности к публикации. В полёте перетаскивание и удержание задают курс, отпускание убирает управляющее усилие. Нажатие больше не переносит груз в выбранную точку. На глобусе остаётся привычное перетаскивание карты.
+`index.html` is the current V16 build. `baseline-v13.html`, `baseline-v14.html`, and `baseline-v15.html` preserve earlier versions for comparison. This is a playable prototype for evaluating flight feel, not a claim of release readiness.
 
-Спуск без ускорения — около 49,7 с; с постоянным удержанием — 19,3 с. Финальный сброс занимает разное время в зависимости от высоты. Звук и эффекты используют общий сигнал движения. Купол обновляется один раз на отображаемый кадр. Отвлекающие адреса показываются с тех же 900 м, что и цель.
+## Run locally
 
-Показатели `FrameMetrics` фиксируют сырое время кадров, включая задержки, до ограничения шага симуляции. Статистика загрузки разделяет ожидание очереди и время до декодированного изображения; она не измеряет отдельно сеть или загрузку на GPU.
+- **Desktop:** run `Start-HeyPals.cmd`, then open [the local game](http://127.0.0.1:8797/).
+- **Phone on the same Wi-Fi network:** run `Start-HeyPals-Mobile.cmd`, then open `http://<computer-local-IP>:8798/`. Keep the server window open. Your network and firewall must allow the connection.
+- **Requirements:** Node.js and an internet connection for Cesium, Three.js, fonts, and satellite imagery. Opening the HTML file directly does not start the required Web Workers.
+- **Development:** run `npm ci`, then `npm run build`.
+- **Tests:** run `npm test`; with the local server running, run `npm run test:browser`. Browser tests use installed Chrome. The main smoke test supports `CHROME_PATH`.
 
-## Запуск
+The launcher filenames retain their original HeyPals names.
 
-- Компьютер: `Start-HeyPals.cmd`, затем http://127.0.0.1:8797/.
-- Телефон в той же Wi-Fi сети: `Start-HeyPals-Mobile.cmd`, затем `http://<локальный-IP-компьютера>:8798/`. Окно сервера должно оставаться открытым. Сеть и брандмауэр должны разрешать подключение.
-- Нужны Node.js и интернет для Cesium, Three.js и спутниковых снимков. Двойной щелчок по HTML не запускает Web Workers.
-- Для изменения кода: `npm ci`, `npm run build`. Для проверок: `npm test`, `npm run test:browser` при запущенном сервере. Браузерные проверки используют установленный Chrome; `CHROME_PATH` поддерживается основной smoke-проверкой.
+## How to play
 
-## Игра
+Study the destination and its surroundings, locate it on the globe, and send the parcel. A session has five deliveries, worth up to 25,000 points. Replaying a round is practice: the score from the first attempt remains. Continuing after the fifth result starts a new session. Search is untimed by default; settings can enable a 24-second selection limit.
 
-Запомни адрес и его окружение, найди место на вращающейся Земле, отправь посылку. Партия — пять доставок, до 25 000 очков. Повтор раунда служит тренировкой: счёт первой попытки сохраняется. После пятого результата начинается новая партия. По умолчанию поиск свободный; в настройках можно включить 24 секунды на выбор.
+By default, the camera visits two decoy locations for about two seconds each after showing the destination. All three are shown from 900 metres. Flights between them are continuous. If imagery is not ready, the game waits up to three seconds, then skips that stop. Settings also offer a mode without decoys.
 
-По умолчанию после адреса камера показывает два отвлекающих места примерно по две секунды. Перелёты плавные; если снимки не готовы, ожидание ограничено тремя секундами, затем остановка пропускается. В настройках можно вернуть обычный режим без отвлечений.
+Drag the globe, use WASD or the arrow keys, or use the on-screen stick. During flight, dragging applies steering rather than moving the map directly; releasing removes that input. Tapping during flight no longer moves the parcel to a selected point.
 
-Тяни карту, используй WASD/стрелки или стик. Кнопка отправки начинает снижение; удержание кнопки или свободного участка экрана плавно ускоряет его. Отпускание после удержания не выбирает точку и не раскрывает парашют. Обычный автоматический спуск занимает около 50 секунд, с постоянным ускорением — около 19 секунд. Ниже 1700 м можно раскрыть купол, ниже 300 м — отпустить груз. Автокупол включён по умолчанию. Пауза останавливает симуляцию.
+The delivery button begins descent. Holding the button or an empty part of the screen smoothly accelerates the fall. Releasing a hold neither selects a location nor opens the parachute. You can open the canopy below 1,700 metres and release the parcel below 300 metres. Automatic canopy deployment is enabled by default. Pausing stops the simulation.
 
-В базе 32 места: 16 исходных городов и 16 ориентиров с небольшим радиусом разброса. Новые ориентиры: Мон-Сен-Мишель, Пальманова, Гиза, Тадж-Махал, Ангкор-Ват, Бразилиа, Регистан, Петра, Дубровник, Сан-Марко, Версаль, Колизей, Акрополь, Химэдзи, Чичен-Ица и Дуомо Флоренции. Их особенности и ссылки на UNESCO лежат рядом с координатами в `src/locations.js`. Координаты ориентиров заданы вручную; качество спутникового покрытия может различаться.
+A normal automatic descent takes about 50 seconds; sustained acceleration reduces it to about 19 seconds. The final drop duration depends on release height. Audio and visual effects share one motion signal, and the canopy updates once per rendered frame.
 
-## Структура
+## Locations
 
-| Область | Владелец |
+The catalogue contains 32 places: 16 original cities and 16 landmarks with small random landing areas. The landmarks are Mont-Saint-Michel, Palmanova, Giza, the Taj Mahal, Angkor Wat, Brasília, Registan, Petra, Dubrovnik, St Mark's Square, Versailles, the Colosseum, the Acropolis, Himeji Castle, Chichén Itzá, and Florence Cathedral.
+
+Coordinates, visual clues, and UNESCO source links are in `src/locations.js`. Landmark coordinates are hand-authored; satellite coverage and image quality vary.
+
+## Architecture
+
+| Responsibility | Source |
 |---|---|
-| Фазы, координаты, скорость, посадка | `src/simulation.js` |
-| Маршрут отвлечения памяти | `src/memory-route.js` |
-| Облака, ночь и атмосферные эффекты | `src/atmosphere.js`, `src/effects.js` |
-| Очки пяти раундов и повтор | `src/session.js` |
-| Географические ориентиры и источники | `src/locations.js` |
-| Темп игры и бюджеты загрузки | `src/tuning.js` |
-| Декодированные тайлы, приоритеты, повторы, освобождение | `src/tile-cache.js` |
-| Адаптер Cesium imagery | `src/imagery-cache.js` |
-| Карта, камера, готовность снимка цели | `src/globe.js` |
-| Плавная детализация | `src/map-transitions.js`, `src/texture-dissolve.js` |
-| Отображение груза и визуальная инерция | `src/cargo.js` |
-| Мышь, палец, удержание ускорения | `src/planet-input.js` |
-| Сборка приложения и UI | `src/main.js`, `src/style.css`, `index.template.html` |
+| Phases, coordinates, speed, and landing | `src/simulation.js` |
+| Memory distraction route | `src/memory-route.js` |
+| Clouds, night treatment, and atmospheric effects | `src/atmosphere.js`, `src/effects.js` |
+| Five-round scoring and replays | `src/session.js` |
+| Locations and sources | `src/locations.js` |
+| Pacing and loading budgets | `src/tuning.js` |
+| Decoded tiles, priorities, retries, and eviction | `src/tile-cache.js` |
+| Cesium imagery adapter | `src/imagery-cache.js` |
+| Globe, camera, and destination imagery readiness | `src/globe.js` |
+| Shared camera projection and local world frame | `src/flight-frame.js` |
+| Gradual imagery refinement | `src/map-transitions.js`, `src/texture-dissolve.js` |
+| Cargo rendering and visual inertia | `src/cargo.js` |
+| Pointer input, touch, and hold acceleration | `src/planet-input.js` |
+| Application integration and UI | `src/main.js`, `src/style.css`, `index.template.html` |
 
-Симуляция остаётся единственным источником игрового состояния; визуальные пружины груза не меняют место посадки. В V16 камера груза синхронизируется с камерой Земли в локальной системе координат; размер и положение определяются общей проекцией. Высокий купол и подвешенный ящик образуют общую конструкцию. При сбросе он движется к выбранной точке карты.
+The simulation owns gameplay state. Cargo animation springs do not change the landing location. In V16, Cesium and Three share a camera projection and a local coordinate frame. Cargo size and position follow that common projection. The raised canopy and suspended crate form one rig; the released crate follows the simulation's height toward the selected ground point.
 
-В загрузке максимум восемь активных запросов, из них до двух фоновых. Видимые тайлы повышают приоритет существующего запроса. Дедупликация общая для двух слоёв карты. Отменённая подготовка не может повторно закрепить данные старого раунда. Кэш ограничен 420 декодированными изображениями и 160 родительскими фрагментами; GPU-кэш Cesium считается отдельно. Готовность раунда проверяется по реально подготовленному снимку цели, а не по уровню геометрии. При отказе сети доступно явное продолжение с текущей картой.
+Loading allows up to eight active requests, including at most two background requests. Visible tiles promote an existing request's priority. Both imagery layers share deduplication. Cancelled preparation cannot pin data from an old round again. The cache holds at most 420 decoded images and 160 parent fragments; Cesium's GPU cache is separate. Round readiness checks the prepared destination imagery rather than geometry detail. If the network fails, the player can explicitly continue with the available map.
 
-## Измерения и проверки
+`FrameMetrics` records raw frame intervals, including stalls, before simulation-step clamping. Loading statistics separate queue time from time to a decoded image; they do not isolate network transfer or GPU upload time.
 
-Локальное сравнение Chrome headless, 1280×800, seed 7241, Barcelona, отдельные браузерные контексты:
+## Measurements and validation
 
-| Метрика | V13 | V14 |
+The V13/V14 comparison used local headless Chrome at 1280×800, seed 7241, Barcelona, with separate browser contexts:
+
+| Metric | V13 | V14 |
 |---|---:|---:|
-| Подготовка адреса после старта | 9,55 с | 1,33 с |
-| Запросы тайлов к готовности адреса | 830 | 73 |
-| Фоновый маршрут | 811 тайлов | 41 тайл |
-| Автоматический спуск до результата | 105,57 с | 49,73 с |
-| p95 интервала кадра в тестовом пролёте | 20,8 мс | 16,7 мс |
+| Destination preparation after starting | 9.55 s | 1.33 s |
+| Tile requests by destination readiness | 830 | 73 |
+| Background route | 811 tiles | 41 tiles |
+| Automatic descent through result | 105.57 s | 49.73 s |
+| p95 frame interval during the test flight | 20.8 ms | 16.7 ms |
 
-Это один повторяемый сценарий, не обещание FPS на любом телефоне. Headless-время кадров не заменяет измерение на реальном устройстве. Спутниковый сервис и соединение остаются внешними ограничениями.
+These results describe one repeatable scenario, not guaranteed frame rates on every phone. Headless measurements do not replace physical-device testing. The satellite service and the connection remain external constraints.
 
-`tests/v14/performance.json` — измерения; `tests/v14/smoke.json` — полный цикл и мобильные размеры. `tests/domain-v14.cjs` проверяет 1584 детерминированных раунда ориентиров, свободный/временной поиск, посадку, счёт, дедупликацию, приоритеты и отмену подготовки. `tests/cargo-perspective.cjs` проверяет видимость и границы груза/купола на 1440×900, 390×844 и 844×390. `tests/recovery-touch-v14.cjs` — отказ детальных тайлов и прокрутка панелей пальцем. Скриншоты сохраняются в `tests/v14` и `tests/cargo`.
+Historical reports are in `tests/v14/performance.json` and `tests/v14/smoke.json`. `tests/domain-v14.cjs` covers 1,584 deterministic landmark rounds, timed and untimed search, landing, scoring, request deduplication, priorities, and preparation cancellation. `tests/recovery-touch-v14.cjs` covers failed detail tiles and touch scrolling in panels. Screenshots are stored in `tests/v14` and `tests/cargo`.
 
-## Ограничения следующей проверки
+V15 validation covered smooth hold acceleration, bounded waiting for decoy imagery, mobile settings, and 15 weather/viewport combinations without shader errors. Supporting research is in `research/v15-game-design.md`, `research/v15-graphics.md`, and `research/v15-ui.md`.
 
-Нужен ручной плейтест на реальном iPhone/Android; Safari пока не проверен. Для коммерческого размещения требуется проверить условия использования карт. Адаптер переходов текстур использует внутренние поля Cesium 1.133 и имеет упрощённый fallback; обновлять Cesium следует вместе с его визуальными проверками.
+V16 shared-camera validation covers 1440×900, 390×844, 320×568, and 844×390. The same world points project in Cesium and Three within 0.1 pixel. The release camera stays fixed while the cargo follows simulation height. The two canvases do not share a depth buffer; the current scene uses a surface without 3D buildings.
 
-Источники: [Cesium Globe API](https://cesium.com/learn/cesiumjs/ref-doc/Globe.html), [UNESCO — Пальманова и венецианские укрепления](https://whc.unesco.org/en/list/1533/), [Мон-Сен-Мишель](https://whc.unesco.org/en/list/80/), [Бразилиа](https://whc.unesco.org/en/list/445/). Остальные ссылки — в каталоге локаций. Лицензии и атрибуция — `THIRD_PARTY_NOTICES.md`.
+The V15/V16 comparison recorded 2,880 frame samples over eight short runs of the same route. Warm startup was 560/556 ms; cold startup was 1,405/821 ms. Cold startup depends on the network and does not establish a general speed improvement. Both versions made 61 requests before destination readiness. No sampled frame exceeded 50 ms. These desktop headless results do not establish phone performance.
 
-## Изменения V15 и выпуск
+Current validation commands include `npm test`, `npm run test:browser`, `node tests/cargo-shared-camera.cjs`, and `node tests/graphics-v15.cjs`. The shared-camera test supersedes the older cargo perspective test for V16.
 
-Облака привязаны к поверхности Земли и реальной камере. Ветер смещает траекторию. Добавлен туман; погода влияет на видимость при падении, но не скрывает адрес при запоминании. На большой высоте ночь использует VIIRS; вблизи — художественное затемнение и тёплые акценты по дневному снимку, а не настоящие фотографии ночных улиц. Логотип HeyDrop, наклейка POST! и бумажная текстура — компактные оригинальные SVG.
+## Visual treatment and remaining checks
 
-Проверки V15: `npm test`, `npm run test:browser`, `node tests/cargo-shared-camera.cjs`, `node tests/graphics-v15.cjs`. Подтверждены плавное удержание, ограниченное ожидание отвлекающих снимков, мобильные настройки, 15 сочетаний погоды и размеров экрана без ошибок шейдеров. Проверки в Chrome не заменяют тест на физическом телефоне. Исследования и решения: `research/v15-game-design.md`, `research/v15-graphics.md`, `research/v15-ui.md`.
+Clouds use the Earth's surface and actual camera. Wind affects the flight path. Fog and weather change visibility during descent without hiding the destination during memorisation. At high altitude, night mode uses VIIRS imagery. Close to the surface, it uses an artistic darkening and warm accents over daytime imagery, not photographs of streets at night. The HeyDrop logo, POST! sticker, and paper texture are compact original SVG assets.
 
-`npm run pack` собирает `dist/HeyDrop-V16-itch.zip`: index.html в корне, два SVG и атрибуция. Архив загружается как HTML game на itch.io. Выбрать запуск в браузере, доступ Restricted и свой пароль; публикация в этой работе не выполнялась. Потребуется интернет: библиотеки, шрифты и спутниковые снимки загружаются извне. См. [HTML5 upload](https://itch.io/docs/creators/html5) и [Access control](https://itch.io/docs/creators/access-control).
+A manual playtest on a physical iPhone and Android device is still needed; Safari has not been validated. Map service terms need review before commercial deployment. The texture transition adapter uses Cesium 1.133 internals and has a simpler fallback. Upgrade Cesium together with the relevant visual regression checks.
 
-Для друзей уже можно копировать ссылку на конкретный адрес с настройками. Синхронные комнаты, общий экран наблюдателя и API ePals пока не реализованы. Следующий небольшой шаг — одинаковая последовательность раундов по коду партии; затем серверный счёт и комнаты. Так симуляция останется общей для браузера и будущих мобильных оболочек.
+Sources include the [Cesium Globe API](https://cesium.com/learn/cesiumjs/ref-doc/Globe.html), [UNESCO: Palmanova and the Venetian defensive works](https://whc.unesco.org/en/list/1533/), [Mont-Saint-Michel](https://whc.unesco.org/en/list/80/), and [Brasília](https://whc.unesco.org/en/list/445/). Further links are in the location catalogue. See `THIRD_PARTY_NOTICES.md` for licences and attribution.
 
-## Проверка V16
+## Packaging and private testing
 
-Общая проекция проверена на 1440×900, 390×844, 320×568 и 844×390. Координаты одних и тех же точек в Cesium и Three совпадают с погрешностью менее 0,1 пикселя. Камера при сбросе сохраняет положение; груз движется по высоте симуляции. Отдельные canvas пока не имеют общего буфера глубины: это решение для текущей поверхности без 3D-зданий.
+`npm run pack` creates `dist/HeyDrop-V16-itch.zip`, containing `index.html` at the root, two runtime SVG assets, and attribution. It is intended for upload as an HTML game on itch.io with browser play enabled. For a private test, select Restricted access and set your own password. Internet access is required for externally hosted libraries, fonts, and satellite imagery. See itch.io's [HTML5 upload guide](https://itch.io/docs/creators/html5) and [access control guide](https://itch.io/docs/creators/access-control).
 
-Сравнение V15/V16: 2880 отсчётов кадров, один и тот же маршрут, 8 коротких проходов. Тёплый старт: 560/556 мс; холодный: 1405/821 мс (зависит от сети и не доказывает общее ускорение). Запросов до готовности адреса: 61/61. В выборке не было кадров длиннее 50 мс. Эти измерения в настольном headless Chrome не доказывают производительность на телефонах.
+- Repository: [lomatoq/HeyDrop](https://github.com/lomatoq/HeyDrop)
+- Test ZIP release: [V16 prototype](https://github.com/lomatoq/HeyDrop/releases/tag/v16-prototype)
+- Restricted itch.io page: [HeyDrop](https://lomatoq.itch.io/heydrop)
 
-## Репозиторий и закрытый тест
+GitHub Actions validates and packages the game on pushes to `main`. Automatic itch.io deployment is not configured.
 
-Основной репозиторий: https://github.com/lomatoq/HeyDrop . Тестовый ZIP: https://github.com/lomatoq/HeyDrop/releases/tag/v16-prototype . GitHub Actions проверяет и собирает архив при push в main; автоматическая отправка в itch пока не настроена.
+The itch.io page has been created with Restricted visibility. **The HTML archive has not yet been uploaded, and the password has not been set.** The browser extension requires permission to access local files, and the owner must enter the password. The embedded game will not run on itch.io until the ZIP is uploaded.
 
-Страница https://lomatoq.itch.io/heydrop создана в режиме Restricted. Загрузка HTML-архива и настройка пароля ещё не завершены: браузерное расширение требует разрешения на локальные файлы, а пароль вводит владелец. До загрузки ZIP встроенная игра на itch не запускается.
+Players can already copy a link to a specific destination and its settings. Synchronous rooms, a shared spectator view, and an ePals API are not implemented. A possible next step is a reproducible round sequence shared through a session code, followed by server-side scoring and rooms. The simulation can then remain common to the browser version and future mobile wrappers.

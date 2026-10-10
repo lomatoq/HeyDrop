@@ -1,10 +1,12 @@
-# V15 — third-party components and asset provenance
+# HeyDrop — third-party components and asset provenance
 
 ## Game artwork
 
 The wooden parcel, its panels, straps, label, suspension lines and 12-panel canopy are newly authored procedural geometry/materials in src/cargo.js. No third-party hand mesh, skeleton, skin weights or motion-capture animation is loaded in V15. The earlier V11 hand assets remain in their original separate version.
 
 The HeyDrop logo and postal-paper SVG texture in assets/ui are original authored vector artwork. The label is drawn into a canvas at runtime. No font binaries are included in the release.
+
+The promotional cover in assets/marketing/hey-drop-cover.png was generated with OpenAI ImageGen on October 10, 2026 and approved by the project owner. It is promotional artwork and is not a gameplay screenshot. It is not included in the browser game ZIP.
 
 ## Libraries
 

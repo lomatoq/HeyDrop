@@ -4,7 +4,7 @@ const $=id=>document.getElementById(id),C=window.Cesium;
 const pop=t=>{t=clamp(t);const a=1.1;return 1+(a+1)*Math.pow(t-1,3)+a*Math.pow(t-1,2)};
 const intersects=(a,b,pad=6)=>a.x<b.right+pad&&a.right>b.x-pad&&a.y<b.bottom+pad&&a.bottom>b.y-pad;
 export class LandingReveal{
- constructor(){this.canvas=$('landingPath');this.ctx=this.canvas.getContext('2d');this.visible=false;const builder=new C.PinBuilder();$('landPinImage').src=builder.fromText('ГРУЗ',C.Color.fromCssColorString('#50c9b8'),74).toDataURL();$('targetPinImage').src=builder.fromText('ЦЕЛЬ',C.Color.fromCssColorString('#ef73a2'),74).toDataURL();this.resize();}
+ constructor(){this.canvas=$('landingPath');this.ctx=this.canvas.getContext('2d');this.visible=false;const builder=new C.PinBuilder();$('landPinImage').src=builder.fromText('BOX',C.Color.fromCssColorString('#50c9b8'),74).toDataURL();$('targetPinImage').src=builder.fromText('GOAL',C.Color.fromCssColorString('#ef73a2'),74).toDataURL();this.resize();}
  resize(){this.w=innerWidth;this.h=innerHeight;const d=Math.min(devicePixelRatio||1,1.5);this.canvas.width=this.w*d;this.canvas.height=this.h*d;this.ctx.setTransform(d,0,0,d,0,0);}
  place(id,p,scale,alpha){const el=$(id);el.style.left=p.x+'px';el.style.top=p.y+'px';el.style.transform=`translate(-50%,-100%) scale(${Math.max(.001,scale)})`;el.style.opacity=String(alpha);}
  badgePosition(a,b,px,py,curve,close){
@@ -30,12 +30,12 @@ export class LandingReveal{
   const close=s.distance<35,dx=b.x-a.x,dy=b.y-a.y,len=Math.hypot(dx,dy)||1,px=-dy/len,py=dx/len,curve=Math.min(30,len*.10);
   $('targetPin').style.display=close?'none':'flex';
   const landLabel=$('landPin').querySelector('span'),targetLabel=$('targetPin').querySelector('span');
-  landLabel.textContent=close?'ПРАКТИЧЕСКИ В ЦЕЛЬ':'ТВОЯ ПОСЫЛКА';
+  landLabel.textContent=close?'RIGHT ON TARGET':'YOUR PARCEL';
   const near=!close&&len<170,shift=a.x>=b.x?32:-32;landLabel.style.transform=near?`translateX(${shift}px)`:'';targetLabel.style.transform=near?`translateX(${-shift}px)`:'';
   this.place('landPin',a,pop(sourceP),smooth(0,.25,sourceP));this.place('targetPin',b,pop(targetP),smooth(0,.25,targetP));
   // Endpoints remain the true game coordinates; the small bend improves readability.
   if(!close){const end=Math.max(1,Math.ceil(50*lineP)),points=[];for(let i=0;i<=end;i++){const t=Math.min(lineP,i/50);if(s.distance>250000){const pt=world.projectUnit(G.slerp(s.aim,world.round.answer,t));if(pt)points.push([pt.x,pt.y]);}else{points.push([a.x+dx*t+px*Math.sin(t*Math.PI)*curve,a.y+dy*t+py*Math.sin(t*Math.PI)*curve]);}}const draw=()=>{c.beginPath();c.moveTo(...points[0]);for(const p of points.slice(1))c.lineTo(...p);c.stroke();};c.lineCap='round';c.setLineDash([4,9]);c.strokeStyle='rgba(32,23,55,.45)';c.lineWidth=5;draw();c.strokeStyle='rgba(255,251,231,.96)';c.lineWidth=2.5;draw();c.setLineDash([]);}
-  const badge=$('mapDistance');badge.textContent=s.distance>=1000?(s.distance/1000).toLocaleString('ru-RU',{maximumFractionDigits:s.distance<100000?2:0})+' км':Math.round(s.distance)+' м';
+  const badge=$('mapDistance');badge.textContent=s.distance>=1000?(s.distance/1000).toLocaleString('en-US',{maximumFractionDigits:s.distance<100000?2:0})+' km':Math.round(s.distance)+' m';
   const pos=this.badgePosition(a,b,px,py,curve,close);badge.style.left=pos.x+'px';badge.style.top=pos.y+'px';badge.style.opacity=String(smooth(2.3,2.7,revealTime));badge.style.transform=`translate(-50%,-50%) scale(${.86+.14*smooth(2.3,2.7,revealTime)})`;
  }
 }
