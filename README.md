@@ -18,7 +18,7 @@ Remember a place, spin the Earth, and deliver a parcel to the exact spot. Five-s
 - **Reproducible routes:** a shared seed selects all five built-in stops. Custom routes play in the author's order. Weather, lighting, timer, and parachute rules are fixed for the route.
 - **Orbit inertia:** release velocity comes from the last 100 ms of dragging, coasts smoothly, and stops on regrab. Stationary finger jitter no longer cancels acceleration. Input is cancelled when switching between globe navigation and flight.
 - **Clear scoring:** results explain accuracy and any parachute penalty. Final results list every delivery. Restarting an unfinished attempt records zero for that slot; a later practice attempt cannot replace it.
-- **Map preparation:** the home screen warms the actual first route stop; results prefetch five centre tiles for the next stop within the existing background request budget. Continuous parent/child tile blending and predictive view-footprint prefetch remain in use.
+- **Map preparation:** the home screen warms the actual first route stop; results prepare the next address and both decoys within the existing background request budget. Decoy preparation batches every mip through level 17, retains close-up rings until the tour ends, and reuses decoded tiles. Continuous parent/child tile blending and predictive view-footprint prefetch remain in use.
 
 ## Catalogue quality and attribution
 

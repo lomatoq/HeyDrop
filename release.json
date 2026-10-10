@@ -1,7 +1,7 @@
 {
   "version": "V17",
-  "bytes": 250830,
-  "sha256": "75808d12e70c20d74f68c7f84172f00a3a9c1c7a8599b51f3f8a8310d3a298dd",
+  "bytes": 251138,
+  "sha256": "f543961c04c526e4a443c46b73769346eaba9de7c73dede24abc2d9b924d7d1f",
   "cargo": "procedural 3D crate and canopy",
   "handAssets": false
 }

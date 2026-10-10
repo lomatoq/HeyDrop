@@ -43,6 +43,14 @@ function controlled(){const pending=[];return {pending,tilingScheme:scheme,reque
  assert(warm.queue.length<=96);assert(warm.queue.filter(r=>r.owners.has('tour')).every(r=>r.priority===1));
  warm.releaseTour();await warming;await flush();assert.equal(warm.active,0);assert([...warm.tiles.values()].every(r=>!r.pin));assert.equal(warm.prewarm.ready,false);
 
+ // Decoys complete across bounded batches, retain intermediate mips and survive eviction.
+ const loaded=[],decoyCache=new ImageryCache({tilingScheme:scheme,maximumLevel:17,requestImage:async(x,y,z)=>{loaded.push([x,y,z]);return image();}});
+ const decoyRound={decoys:[{aim:[1,0,0]},{aim:[0,1,0]}]};
+ const ready=await decoyCache.warmDecoys(decoyRound);assert(ready.ready);assert.equal(ready.failed,0);assert.equal(ready.done,ready.total);assert(decoyCache.queuePeak<=12);
+ for(const lon of [0,Math.PI/2])for(let z=0;z<=17;z++){const t=scheme.positionToTileXY({longitude:lon,latitude:0},z);assert(decoyCache.tiles.get(`${z}/${t.x}/${t.y}`).image);}
+ const count=loaded.length;await decoyCache.warmDecoys(decoyRound);assert.equal(loaded.length,count,'repeat preparation uses decoded cache');
+ decoyCache.maxDecoded=1;decoyCache.trim();assert.equal(decoyCache.tiles.size,count,'upcoming scenes stay pinned');decoyCache.releaseTour();assert(decoyCache.tiles.size<=1);
+
  // Forward prediction covers a view footprint, wraps the dateline and cannot
  // exceed its admission budget or request outside valid Mercator tile rows.
  const map={tilingScheme:scheme,maximumLevel:18},view={lon:Math.PI-.0001,lat:.7,alt:900,fovy:1,aspect:1.8,heading:0,rawLOD:16.4};

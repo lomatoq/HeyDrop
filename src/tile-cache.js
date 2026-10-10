@@ -59,11 +59,21 @@ export class ImageryCache {
   await Promise.all(jobs.map(([x,y,z])=>this.request(x,y,z,1,'tour').then(()=>{if(generation===this.generation){const r=this.tiles.get(this.key(x,y,z));if(r)r.pin=true;}},()=>group.failed++).finally(()=>group.done++)));
   if(generation===this.generation){group.ready=true;group.completedAt=performance.now();}return group;
  }
- warmDecoys(round){
-  const scheme=this.source.tilingScheme,points=(round.decoys||[]).slice(0,2).map(place=>new C.Cartographic(Math.atan2(place.aim[1],place.aim[0]),Math.asin(Math.max(-1,Math.min(1,place.aim[2])))));
-  // Admit both sharp centres before spending the existing queue budget on rings.
-  // Target-tour requests retain priority 1; all decoys remain priority 0.
-  for(const radius of [0,1])for(const z of [15,17,12,7])for(const point of points){const tile=scheme.positionToTileXY(point,z);if(!tile)continue;const nx=scheme.getNumberOfXTilesAtLevel(z),ny=scheme.getNumberOfYTilesAtLevel(z);for(let dy=-radius;dy<=radius;dy++)for(let dx=-radius;dx<=radius;dx++){if(radius&&dx===0&&dy===0)continue;const y=tile.y+dy;if(y>=0&&y<ny)this.request((tile.x+dx+nx)%nx,y,z,0,'decoys').catch(()=>{});}}
+ async warmDecoys(round){
+  const generation=this.generation,scheme=this.source.tilingScheme,points=(round.decoys||[]).slice(0,2).map(place=>new C.Cartographic(Math.atan2(place.aim[1],place.aim[0]),Math.asin(Math.max(-1,Math.min(1,place.aim[2])))));
+  const jobs=[],seen=new Set(),maximum=Math.min(17,this.source.maximumLevel??17);
+  const add=(point,z,radius)=>{if(z>maximum)return;const tile=scheme.positionToTileXY(point,z);if(!tile)return;const nx=scheme.getNumberOfXTilesAtLevel(z),ny=scheme.getNumberOfYTilesAtLevel(z);for(let dy=-radius;dy<=radius;dy++)for(let dx=-radius;dx<=radius;dx++){const x=(tile.x+dx+nx)%nx,y=tile.y+dy,key=this.key(x,y,z);if(y<0||y>=ny||seen.has(key))continue;seen.add(key);jobs.push([x,y,z]);}};
+  // Both sharp centres first, then every intermediate mip and close-up ring.
+  // Batches avoid silently losing requests to the shared queue admission limit.
+  for(const z of [15,17])for(const point of points)add(point,z,0);
+  for(let z=0;z<=maximum;z++)for(const point of points)add(point,z,z>=14?1:0);
+  const group=this.decoyWarm={total:jobs.length,done:0,failed:0,ready:false};
+  for(let i=0;i<jobs.length&&generation===this.generation;i+=12){
+   await Promise.all(jobs.slice(i,i+12).map(async([x,y,z])=>{
+    try{const task=this.request(x,y,z,0,'decoys'),record=this.tiles.get(this.key(x,y,z));if(record)record.pin=true;await task;}catch{group.failed++;}finally{group.done++;}
+   }));
+  }
+  group.ready=generation===this.generation&&group.done===group.total&&group.failed===0;return group;
  }
  releaseTour(){this.generation++;for(const r of this.tiles.values())r.pin=false;this.trim();this.prewarm.released=true;this.cancelBackground();}
  cancelBackground(owner,keep=new Set()){
@@ -80,5 +90,5 @@ export class ImageryCache {
   for(const [x,y,z]of jobs)this.request(x,y,z,priority,owner).catch(()=>{});
  }
  unpin(){this.generation++;this.cancelBackground();for(const r of this.tiles.values())r.pin=false;this.prewarm.ready=false;}
- snapshot(){const mean=key=>this.timings.length?this.timings.reduce((n,t)=>n+t[key],0)/this.timings.length:0,sorted=this.timings.map(t=>t.requestToDecodedMs).sort((a,b)=>a-b);return {decoded:[...this.tiles.values()].filter(r=>r.image).length,queued:this.queue.length,queuedVisible:this.queue.filter(r=>r.priority>=3).length,queuePeak:this.queuePeak,oldestQueuedMs:this.queue.length?performance.now()-Math.min(...this.queue.map(r=>r.queuedAt)):0,active:this.active,backgroundActive:this.backgroundActive,hits:this.hits,received:this.received,failures:this.failures,cancelled:this.cancelled,cancelledActive:this.cancelledActive,cancelledQueued:this.cancelledQueued,promoted:this.promoted,timing:{scope:'last-64-successful-loads; includes network and image decode, excludes GPU upload',samples:this.timings.length,queueMeanMs:mean('queueMs'),requestToDecodedMeanMs:mean('requestToDecodedMs'),requestToDecodedP95Ms:sorted.length?sorted[Math.ceil(sorted.length*.95)-1]:0},prewarm:{...this.prewarm}};}
+ snapshot(){const mean=key=>this.timings.length?this.timings.reduce((n,t)=>n+t[key],0)/this.timings.length:0,sorted=this.timings.map(t=>t.requestToDecodedMs).sort((a,b)=>a-b);return {decoded:[...this.tiles.values()].filter(r=>r.image).length,queued:this.queue.length,queuedVisible:this.queue.filter(r=>r.priority>=3).length,queuePeak:this.queuePeak,oldestQueuedMs:this.queue.length?performance.now()-Math.min(...this.queue.map(r=>r.queuedAt)):0,active:this.active,backgroundActive:this.backgroundActive,hits:this.hits,received:this.received,failures:this.failures,cancelled:this.cancelled,cancelledActive:this.cancelledActive,cancelledQueued:this.cancelledQueued,promoted:this.promoted,timing:{scope:'last-64-successful-loads; includes network and image decode, excludes GPU upload',samples:this.timings.length,queueMeanMs:mean('queueMs'),requestToDecodedMeanMs:mean('requestToDecodedMs'),requestToDecodedP95Ms:sorted.length?sorted[Math.ceil(sorted.length*.95)-1]:0},prewarm:{...this.prewarm},decoys:this.decoyWarm?{...this.decoyWarm}:null};}
 }
