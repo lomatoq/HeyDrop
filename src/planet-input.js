@@ -1,28 +1,36 @@
 // Screen hold and drag are mutually exclusive; releasing a hold never picks a new point.
 export function bindPlanetInput(app) {
  const area=document.getElementById('globe');
- let pointer=null,last=null,start=null,moved=0,holding=false,dragging=false,holdTimer=null;
+ let pointer=null,last=null,start=null,moved=0,holding=false,dragging=false,holdTimer=null,gestureMode=null,samples=[],angleX=0,angleY=0;
  const active=()=>app.ready&&!app.paused&&!app.modal&&app.sim.isActive();
  const falling=()=>['entry','freefall','opening','canopy'].includes(app.sim.s.phase);
+ const mode=()=>falling()?'flight':app.sim.s.phase==='orbit'?'orbit':'inactive';
+ const eventTime=e=>Number.isFinite(e?.timeStamp)?e.timeStamp:performance.now();
+ const sample=(time)=>{samples.push({time,x:angleX,y:angleY});while(samples.length>2&&samples[1].time<time-100)samples.shift();};
+ const releaseVelocity=time=>{sample(time);const end=samples[samples.length-1],first=samples[0],next=samples[1]||first,from=Math.max(first.time,time-100),f=next.time>first.time?Math.max(0,Math.min(1,(from-first.time)/(next.time-first.time))):0,seconds=Math.max(.016,(time-from)/1000);return {x:(end.x-(first.x+(next.x-first.x)*f))/seconds,y:(end.y-(first.y+(next.y-first.y)*f))/seconds};};
  const stopHold=()=>{clearTimeout(holdTimer);holdTimer=null;app.surfaceBoost=false;};
- const reset=()=>{stopHold();pointer=null;last=start=null;holding=dragging=false;app.sim.s.dragging=false;app.flightDrag={x:0,y:0};};
+ const reset=()=>{stopHold();pointer=null;last=start=null;holding=dragging=false;gestureMode=null;samples=[];app.sim.s.dragging=false;app.flightDrag={x:0,y:0};};
  const release=e=>{
   if(pointer===null||e&&e.pointerId!==pointer)return;
+  if(gestureMode!==mode()){reset();app.sim.stopOrbitMotion();return;}
+  const velocity=dragging&&gestureMode==='orbit'&&e?.type==='pointerup'&&active()?releaseVelocity(eventTime(e)):{x:0,y:0};
+  app.sim.endDrag(velocity.x,velocity.y);
   const click=!holding&&!dragging&&moved<8&&start&&e?.type==='pointerup';
   reset();
   if(click&&active()&&!falling()){const p=app.world.pickAt(e.clientX,e.clientY);if(p){app.sim.pick(p.lat,p.lon);app.lastClick={...p};app.flashPick(e.clientX,e.clientY);}}
  };
  area.addEventListener('pointerdown',e=>{
   if(!active()||pointer!==null||e.button>0)return;
-  pointer=e.pointerId;area.setPointerCapture(pointer);start=last={x:e.clientX,y:e.clientY};moved=0;holding=dragging=false;
-  app.sim.seek=null;app.sim.s.turnX=app.sim.s.turnY=0;
-  if(falling())holdTimer=setTimeout(()=>{if(pointer!==null&&active()&&falling()&&!dragging){holding=true;app.surfaceBoost=true;}},220);
+  pointer=e.pointerId;area.setPointerCapture(pointer);start=last={x:e.clientX,y:e.clientY};moved=0;holding=dragging=false;gestureMode=mode();samples=[];angleX=angleY=0;sample(eventTime(e));
+  app.sim.seek=null;if(gestureMode==='orbit')app.sim.beginDrag();
+  if(falling())holdTimer=setTimeout(()=>{if(pointer!==null&&active()&&gestureMode===mode()&&falling()&&!dragging){holding=true;app.surfaceBoost=true;}},220);
   e.preventDefault();
  });
  area.addEventListener('pointermove',e=>{
   if(e.pointerId!==pointer||!active())return;
-  const dx=e.clientX-last.x,dy=e.clientY-last.y;moved+=Math.hypot(dx,dy);
-  if(moved>10){dragging=true;stopHold();if(falling()){app.sim.s.dragging=false;const radius=72;let x=(e.clientX-start.x)/radius,y=(e.clientY-start.y)/radius;const len=Math.hypot(x,y);if(len>1){x/=len;y/=len;}app.flightDrag={x,y};}else{app.sim.s.dragging=true;const scale=app.world.pixelScale()*app.sim.config.sensitivity*(app.input().brake?.25:1);app.sim.drag(dx,dy,scale);}}
+  if(gestureMode!==mode()){reset();app.sim.stopOrbitMotion();return;}
+  let dx=e.clientX-last.x,dy=e.clientY-last.y;moved=Math.max(moved,Math.hypot(e.clientX-start.x,e.clientY-start.y));
+  if(moved>10){if(!dragging){dx=e.clientX-start.x;dy=e.clientY-start.y;}dragging=true;stopHold();if(falling()){app.sim.s.dragging=false;const radius=72;let x=(e.clientX-start.x)/radius,y=(e.clientY-start.y)/radius;const len=Math.hypot(x,y);if(len>1){x/=len;y/=len;}app.flightDrag={x,y};}else{app.sim.s.dragging=true;const scale=app.world.pixelScale()*app.sim.config.sensitivity*(app.input().brake?.25:1);app.sim.drag(dx,dy,scale);angleX-=dx*scale;angleY+=dy*scale;sample(eventTime(e));}}
   last={x:e.clientX,y:e.clientY};e.preventDefault();
  });
  area.addEventListener('pointerup',release);
@@ -36,5 +44,5 @@ export function bindPlanetInput(app) {
  go.onpointerdown=e=>{if(!active())return;buttonStarted=performance.now();buttonPhase=app.sim.s.phase;suppressClick=false;if(['entry','freefall'].includes(buttonPhase)){app.boost=true;go.setPointerCapture(e.pointerId);}};
  const releaseButton=e=>{if(app.boost){suppressClick=e.type!=='pointerup'||performance.now()-buttonStarted>200||buttonPhase!==app.sim.s.phase;}app.boost=false;};
  go.onpointerup=go.onpointercancel=go.onlostpointercapture=releaseButton;
- app.cancelGesture=()=>{reset();app.boost=false;suppressClick=true;app.pad={x:0,y:0};};
+ app.cancelGesture=()=>{reset();app.sim.stopOrbitMotion();app.boost=false;suppressClick=true;app.pad={x:0,y:0};};
 }

@@ -8,7 +8,7 @@ import * as G from './geo-math.js';
 export {clamp,mix,smooth,damp,TAU,random,CITIES,WEATHER,Spring};
 export const ACTIVE=['orbit','entry','freefall','opening','canopy'];
 export function makeRound(seed,city='random'){
- const r=random(seed),c=city==='random'?CITIES[Math.floor(r()*CITIES.length)]:CITIES.find(c=>c[0]===city)||CITIES[0];
+ const r=random(seed),custom=LOCATION_BY_ID.get(city),c=custom?[custom.id,custom.name,custom.lat,custom.lon]:city==='random'?CITIES[Math.floor(r()*CITIES.length)]:CITIES.find(c=>c[0]===city)||CITIES[0];
  const place=LOCATION_BY_ID.get(c[0]),lat=c[2]+(r()-.5)*(place?place.radius*2:1600)/111320,lon=c[3]+(r()-.5)*(place?place.radius*2:1900)/(111320*Math.cos(c[2]*G.DEG)),answer=G.unit(lat,lon);
  const q=random(seed^0x68bd7819);let start;
  for(let i=0;i<100;i++){start=G.unit((q()-.5)*118,q()*360-180);const a=G.angle(start,answer);if(a>1.25&&a<2.75)break;}
@@ -17,16 +17,21 @@ export function makeRound(seed,city='random'){
 }
 export class Simulation{
  constructor(){this.config={weather:'clear',time:'day',auto:true,motion:true,sensitivity:1,timed:false,challenge:'shuffle'};this.round=makeRound(8245);this.roll=new Spring(10,.85);this.pitch=new Spring(10,.85);this.reset();}
- reset(){this.roll.reset();this.pitch.reset();this.seek=null;this.wheel={x:0,y:0};const n=[...this.round.start];this.s={phase:'home',t:0,clock:0,elapsed:0,aim:n,up:G.north(n),lat:G.coord(n).lat,lon:G.coord(n).lon,h:11000000,vy:0,x:0,z:0,vx:0,vz:0,ax:0,az:0,bank:0,pitch:0,yawRate:0,heading:0,rollVelocity:0,pitchVelocity:0,airSpeed:0,horizontalSpeed:0,forwardSpeed:0,chute:0,flare:0,inputX:0,inputY:0,wind:[0,0],turb:0,heat:0,landTime:0,contact:false,distance:0,hard:false,pathLength:0,turnX:0,turnY:0,angularTravel:0,orbitLeft:24,dragging:false,boost:0,boostHeld:0,descentMultiplier:1,windTravel:0,entryClock:0,descentSpeed:0,visualSpeed:0,flightCue:0,dropStart:95,dropDuration:dropDuration(95),dropProgress:0,contactTime:0};this.onPhase?.('home');}
- phase(name){this.s.phase=name;this.s.t=0;if(name==='zoom'){this.s.routeClock=0;this.s.decoyWait=0;this.s.decoySkipped=0;}this.onPhase?.(name);}
+ reset(){this.roll.reset();this.pitch.reset();this.seek=null;this.wheel={x:0,y:0};this.orbitDrift={x:0,y:0};const n=[...this.round.start];this.s={phase:'home',t:0,clock:0,elapsed:0,aim:n,up:G.north(n),lat:G.coord(n).lat,lon:G.coord(n).lon,h:11000000,vy:0,x:0,z:0,vx:0,vz:0,ax:0,az:0,bank:0,pitch:0,yawRate:0,heading:0,rollVelocity:0,pitchVelocity:0,airSpeed:0,horizontalSpeed:0,forwardSpeed:0,chute:0,flare:0,inputX:0,inputY:0,wind:[0,0],turb:0,heat:0,landTime:0,contact:false,distance:0,hard:false,pathLength:0,turnX:0,turnY:0,angularTravel:0,orbitLeft:24,dragging:false,boost:0,boostHeld:0,descentMultiplier:1,windTravel:0,entryClock:0,descentSpeed:0,visualSpeed:0,flightCue:0,dropStart:95,dropDuration:dropDuration(95),dropProgress:0,contactTime:0};this.onPhase?.('home');}
+ phase(name){const previous=this.s.phase;if(previous!==name){this.s.dragging=false;this.orbitDrift.x=this.orbitDrift.y=0;if(previous==='orbit'||name==='orbit'){this.wheel.x=this.wheel.y=0;this.s.turnX=this.s.turnY=0;}}this.s.phase=name;this.s.t=0;if(name==='zoom'){this.s.routeClock=0;this.s.decoyWait=0;this.s.decoySkipped=0;}this.onPhase?.(name);}
  begin(){this.reset();this.s.aim=[...this.round.answer];this.s.up=G.north(this.s.aim);this.s.h=900;this.syncGeo();this.phase('brief');}
  syncGeo(){const s=this.s,g=G.coord(s.aim);s.lat=g.lat;s.lon=g.lon;s.heading=G.bearing(s.aim,s.up);s.x=g.lon*111320*Math.cos(g.lat*G.DEG);s.z=g.lat*111320;}
  isActive(){return ACTIVE.includes(this.s.phase);}
  moveBy(dx,dy){const s=this.s;if(!this.isActive())return;const right=G.norm(G.cross(s.up,s.aim)),tangent=G.add(G.mul(right,dx),G.mul(s.up,dy)),a=Math.hypot(dx,dy);if(a<1e-12)return;const axis=G.norm(G.cross(s.aim,tangent));s.aim=G.norm(G.rotate(s.aim,axis,a));s.up=G.norm(G.rotate(s.up,axis,a));s.up=G.norm(G.add(s.up,G.mul(s.aim,-G.dot(s.up,s.aim))));s.angularTravel+=a;s.pathLength+=a*G.R;this.syncGeo();}
+ // Orbit release velocity is input state, not a camera animation. Its exact
+ // exponential integral makes the coast independent of simulation frame rate.
+ stopOrbitMotion(){this.orbitDrift.x=this.orbitDrift.y=0;this.wheel.x=this.wheel.y=0;}
+ beginDrag(){this.seek=null;this.stopOrbitMotion();this.s.turnX=this.s.turnY=0;this.s.dragging=this.s.phase==='orbit';}
+ endDrag(x=0,y=0){this.s.dragging=false;this.stopOrbitMotion();if(this.s.phase!=='orbit'||![x,y].every(Number.isFinite))return;const speed=Math.hypot(x,y),scale=speed>1.6?1.6/speed:1;this.orbitDrift.x=x*scale;this.orbitDrift.y=y*scale;}
  // Used only for the coordinates the player actually clicked on the visible globe.
- pick(lat,lon){if(!this.isActive())return false;const s=this.s;this.seek={from:[...s.aim],up:[...s.up],to:G.unit(lat,lon),elapsed:0,duration:s.phase==='orbit'?.40:.24};s.turnX=s.turnY=0;this.wheel.x=this.wheel.y=0;return true;}
- drag(dx,dy,scale){if(!this.isActive())return;this.seek=null;this.moveBy(-dx*scale,dy*scale);this.s.inputX=clamp(-dx*.08,-1,1);this.s.inputY=clamp(-dy*.08,-1,1);this.s.turnX=this.s.turnY=0;}
- scroll(dx,dy,scale,vertical=false){if(!this.isActive())return;this.seek=null;this.wheel.x+=clamp((vertical?dx:dx+dy)*scale*.65,-.55,.55);this.wheel.y+=clamp((vertical?-dy:0)*scale*.65,-.55,.55);}
+ pick(lat,lon){if(!this.isActive())return false;this.stopOrbitMotion();const s=this.s;this.seek={from:[...s.aim],up:[...s.up],to:G.unit(lat,lon),elapsed:0,duration:s.phase==='orbit'?.40:.24};s.turnX=s.turnY=0;this.wheel.x=this.wheel.y=0;return true;}
+ drag(dx,dy,scale){if(!this.isActive())return;this.seek=null;this.stopOrbitMotion();this.moveBy(-dx*scale,dy*scale);this.s.inputX=clamp(-dx*.08,-1,1);this.s.inputY=clamp(-dy*.08,-1,1);this.s.turnX=this.s.turnY=0;}
+ scroll(dx,dy,scale,vertical=false){if(this.s.phase!=='orbit')return;this.seek=null;this.orbitDrift.x=this.orbitDrift.y=0;this.wheel.x=clamp(this.wheel.x+clamp((vertical?dx:dx+dy)*scale*.65,-.55,.55),-.75,.75);this.wheel.y=clamp(this.wheel.y+clamp((vertical?-dy:0)*scale*.65,-.55,.55),-.75,.75);}
  descend(){if(this.s.phase!=='orbit')return false;this.s.entryStartH=this.s.h;this.s.entryClock=0;this.phase('entry');return true;}
  startDrop(hard=false){const s=this.s;s.dropStart=s.h;s.dropDuration=dropDuration(s.h);s.dropProgress=0;s.landTime=0;s.contactTime=0;s.contact=false;s.hard=hard;this.seek=null;s.turnX=s.turnY=0;this.wheel.x=this.wheel.y=0;this.phase('land');}
  release(){const s=this.s;if(s.phase!=='canopy'||s.h>300||s.h<0)return false;this.startDrop();return true;}
@@ -34,11 +39,13 @@ export class Simulation{
  controlRate(){const s=this.s;return s.phase==='orbit'?.98:Math.min(.98,.68*s.h/(G.R+s.h));}
  control(dt,input){const s=this.s;let x=clamp(input.x||0,-1,1),y=clamp(input.y||0,-1,1),m=Math.hypot(x,y);if(m>1){x/=m;y/=m;}s.flare=damp(s.flare,input.brake?1:0,14,dt);const accelerate=input.boost&&['entry','freefall','opening','canopy'].includes(s.phase);s.boostHeld=accelerate?s.boostHeld+dt:0;s.boost=damp(s.boost,accelerate?smooth(0,2.8,s.boostHeld):0,accelerate?4:6,dt);s.descentMultiplier=1+s.boost*2;
  if(!s.dragging){s.inputX=x;s.inputY=y;}
- if(Math.abs(x)+Math.abs(y)>.03||input.brake){this.seek=null;}
+ if(Math.abs(x)+Math.abs(y)>.03||input.brake){this.seek=null;}if(Math.abs(x)+Math.abs(y)>.03){this.orbitDrift.x=this.orbitDrift.y=0;}if(input.brake)this.wheel.x=this.wheel.y=0;
  if(this.seek&&!s.dragging){const t=this.seek;t.elapsed+=dt;const f=smooth(0,t.duration,t.elapsed),q=G.rotor(t.from,t.to,f);s.aim=G.slerp(t.from,t.to,f);s.up=G.norm(G.rotate(t.up,q.axis,q.rad));if(f>=1)this.seek=null;this.syncGeo();}
  const rate=this.controlRate()*this.config.sensitivity*(1-s.flare*.78),response=input.brake?24:12;
  s.turnX=damp(s.turnX,x*rate,response,dt);s.turnY=damp(s.turnY,-y*rate,response,dt);
- if(!s.dragging&&!this.seek){const w=1-Math.exp(-dt*13),wx=this.wheel.x*w,wy=this.wheel.y*w;this.wheel.x-=wx;this.wheel.y-=wy;this.moveBy(s.turnX*dt+wx,s.turnY*dt+wy);}
+ if(!s.dragging&&!this.seek){const w=1-Math.exp(-dt*13),wx=this.wheel.x*w,wy=this.wheel.y*w;this.wheel.x-=wx;this.wheel.y-=wy;
+ const friction=input.brake?32:6.5,decay=Math.exp(-friction*dt),travel=(1-decay)/friction,coast=s.phase==='orbit',dx=coast?this.orbitDrift.x*travel:0,dy=coast?this.orbitDrift.y*travel:0;
+ this.orbitDrift.x*=decay;this.orbitDrift.y*=decay;this.moveBy(s.turnX*dt+wx+dx,s.turnY*dt+wy+dy);}
  s.yawRate=rate>0?s.turnX/rate:0;s.bank=this.roll.step(clamp(s.inputX,-1,1)*.62,dt);s.pitch=this.pitch.step(-clamp(s.inputY,-1,1)*.5,dt);s.rollVelocity=this.roll.velocity;s.pitchVelocity=this.pitch.velocity;
  s.horizontalSpeed=Math.hypot(s.turnX,s.turnY)*G.R;s.vx=s.turnX*G.R;s.vz=s.turnY*G.R;
  }

@@ -1,0 +1,15 @@
+{
+  "id": "Q9202",
+  "name": "Statue of Liberty",
+  "coordinates": [
+    {
+      "latitude": 40.689209166667,
+      "longitude": -74.044425277778,
+      "altitude": null,
+      "precision": 2.7777777777778e-07,
+      "globe": "http://www.wikidata.org/entity/Q2"
+    }
+  ],
+  "source": "https://www.wikidata.org/wiki/Q9202",
+  "license": "CC0-1.0"
+}

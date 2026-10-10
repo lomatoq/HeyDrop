@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+ <meta name="theme-color" content="#fff9eb">
+ <title>Route Studio · HeyDrop</title>
+ <link rel="icon" href="data:,">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900;1000&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.133/Build/Cesium/Widgets/widgets.css">
+ <link rel="stylesheet" href="./src/editor.css">
+ <script>window.CESIUM_BASE_URL='https://cesium.com/downloads/cesiumjs/releases/1.133/Build/Cesium/';</script>
+ <script src="https://cesium.com/downloads/cesiumjs/releases/1.133/Build/Cesium/Cesium.js" onerror="window.editorBootError='The map engine could not load. Check your connection and retry.'"></script>
+ <script type="module" src="./editor.bundle.js"></script>
+</head>
+<body>
+ <header class="studio-header">
+  <a class="brand" href="./index.html" aria-label="Back to HeyDrop"><img src="./assets/ui/hey-drop.svg" alt="HeyDrop"><span>ROUTE STUDIO</span></a>
+  <div class="header-copy"><strong>Your places. Your delivery route.</strong><span>Pick real landmarks, then play them in order.</span></div>
+  <div class="file-actions"><button id="importButton" class="button quiet">Import JSON</button><button id="exportButton" class="button quiet" disabled>Export JSON</button><button id="playButton" class="button primary" disabled>Play route <span aria-hidden="true">↗</span></button></div>
+ </header>
+ <main class="studio-layout">
+  <aside class="route-panel" aria-label="Route builder">
+   <div class="panel-heading"><span class="eyebrow">A LITTLE POSTAL ADVENTURE</span><h1>Make a route<span class="stamp" aria-hidden="true">POST!</span></h1><p>Find a place worth remembering.<br>Click the satellite map to pin its exact address.</p></div>
+   <div class="catalogue-search"><label for="landmarkSearch">Or add a known landmark</label><input id="landmarkSearch" type="search" placeholder="Search landmarks…" autocomplete="off" aria-controls="landmarkResults"><div id="landmarkResults" class="landmark-results" hidden></div></div>
+   <div class="route-heading"><h2>Your stops <span id="placeCount">0 / 50</span></h2><button id="addButton" class="button add">+ Add location</button></div>
+   <div id="emptyRoute" class="empty-route"><span aria-hidden="true">＋</span><strong>Start with one great place</strong><p>A favourite square, an island, your old street. Click the map to drop your first pin.</p></div>
+   <ol id="routeList" class="route-list" aria-label="Locations in play order"></ol>
+   <form id="placeForm" class="place-form" hidden novalidate>
+    <div class="form-heading"><h2 id="editHeading">Edit location</h2><span id="pinNote">Click the map to move this pin</span></div>
+    <label for="placeName">Location name</label><input id="placeName" name="name" type="text" maxlength="80" placeholder="The square by the river" autocomplete="off" required>
+    <label for="placeHint">A clue for the reveal <span>optional</span></label><textarea id="placeHint" name="hint" maxlength="240" rows="2" placeholder="A star-shaped square beside a bend in the river."></textarea>
+    <div class="coordinate-fields"><div><label for="placeLat">Latitude</label><input id="placeLat" name="lat" type="number" inputmode="decimal" min="-85" max="85" step="any" required></div><div><label for="placeLon">Longitude</label><input id="placeLon" name="lon" type="number" inputmode="decimal" min="-180" max="180" step="any" required></div></div>
+    <div class="form-actions"><button id="viewPoint" class="button quiet" type="button">View this point</button><button id="removeButton" class="button text-danger" type="button">Remove location</button></div>
+   </form>
+   <div id="routeError" class="notice error" role="alert" hidden></div>
+   <div class="draft-footer"><span id="draftState" class="draft-state">Draft stays on this device</span><p id="routeLimit">Up to 50 locations in a JSON file.<br>Play links hold up to 20.</p><p>No account or upload. Export a file to keep a copy.</p></div>
+  </aside>
+  <section class="map-panel" aria-label="Satellite map">
+   <div id="editorMap" class="editor-map"></div>
+   <div class="map-top"><div class="map-instruction"><span class="pin-symbol" aria-hidden="true">●</span><div><strong id="mapInstruction">Click the map to add your first location</strong><span id="mapHint">Drag to explore · scroll or pinch to zoom</span></div></div><button id="fitRoute" class="button map-button" disabled>Fit route</button></div>
+   <div id="mapStatus" class="map-status" role="status"><span class="loading-dot" aria-hidden="true"></span><span id="mapStatusText">Loading the satellite map…</span><button id="retryMap" class="button quiet" hidden>Retry</button></div>
+   <div class="map-bottom"><span id="selectedCoordinates">An exact address. No random offset.</span><div class="zoom-controls"><button id="zoomIn" aria-label="Zoom in" disabled>+</button><button id="zoomOut" aria-label="Zoom out" disabled>−</button></div></div>
+  </section>
+ </main>
+ <input id="importFile" type="file" accept=".json,application/json" hidden>
+ <div id="editorToast" class="toast" role="status" hidden></div>
+ <noscript><p class="startup-message">Enable JavaScript to use the route editor.</p></noscript>
+ <script>if(location.protocol==='file:'){document.getElementById('mapStatusText').textContent='Start the HeyDrop launcher, then open the editor through the local server.';const a=document.createElement('a');a.href='http://127.0.0.1:8797/editor.html';a.textContent='Open local editor';document.getElementById('mapStatus').append(a);}</script>
+</body>
+</html>

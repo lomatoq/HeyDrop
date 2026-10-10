@@ -1,0 +1,165 @@
+{
+  "dataset_id": "whc001",
+  "metas": {
+    "dcat": {
+      "created": null,
+      "issued": null,
+      "creator": null,
+      "contributor": null,
+      "contact_name": null,
+      "contact_email": null,
+      "accrualperiodicity": null,
+      "spatial": "001",
+      "temporal": null,
+      "granularity": null,
+      "dataquality": null,
+      "publisher_type": null,
+      "conforms_to": null,
+      "temporal_coverage_start": "1978-01-01T00:00:00+00:00",
+      "temporal_coverage_end": "2025-01-01T00:00:00+00:00",
+      "accessRights": null,
+      "relation": null
+    },
+    "default": {
+      "title": "World Heritage List",
+      "title_en": "World Heritage List",
+      "title_fr": "Liste du Patrimoine mondial ",
+      "title_es": "Lista del Patrimonio Mundial",
+      "title_ar": "قائمة التراث العالمي",
+      "description": "This dataset contains the UNESCO World Heritage List, showcasing sites of outstanding universal value recognized for their cultural, natural, or mixed significance. It includes information on site locations, criteria for inclusion, and the year of inscription, supporting efforts to safeguard the world’s heritage for future generations.<pre class=\"\"><a href=\"https://whc.unesco.org/en/syndication\" target=\"_blank\">Terms and Conditions of Use</a></pre><br>",
+      "description_en": "This dataset contains the UNESCO World Heritage List, showcasing sites of outstanding universal value recognized for their cultural, natural, or mixed significance. It includes information on site locations, criteria for inclusion, and the year of inscription, supporting efforts to safeguard the world’s heritage for future generations.<pre class=\"\"><a href=\"https://whc.unesco.org/en/syndication\" target=\"_blank\">Terms and Conditions of Use</a></pre><br>",
+      "description_fr": "Ce jeu de données contient la liste du patrimoine mondial de l'UNESCO, qui présente les sites d'une valeur universelle exceptionnelle reconnus pour leur importance culturelle, naturelle ou mixte. Il comprend des informations sur l'emplacement des sites, les critères d'inscription et l'année d'inscription, soutenant ainsi les efforts de sauvegarde du patrimoine mondial pour les générations futures.<pre class=\"\"><a href=\"https://whc.unesco.org/fr/syndication\" target=\"_blank\">Conditions d'utilisation</a></pre><br>",
+      "description_es": "Este conjunto de datos contiene la Lista del Patrimonio Mundial de la UNESCO, que muestra los sitios de valor universal excepcional reconocidos por su importancia cultural, natural o mixta. Incluye información sobre la ubicación de los sitios, los criterios de inclusión y el año de inscripción, apoyando los esfuerzos para salvaguardar el patrimonio mundial para las generaciones futuras.<pre class=\"\"><a href=\"https://whc.unesco.org/en/syndication\" target=\"_blank\">Condiciones de uso</a></pre><br>",
+      "description_ar": "تحتوي مجموعة البيانات هذه على قائمة اليونسكو للتراث العالمي التي تعرض المواقع ذات القيمة العالمية البارزة المعترف بها لأهميتها الثقافية أو الطبيعية أو المختلطة. وتتضمن معلومات عن مواقع المواقع، ومعايير الإدراج، وسنة الإدراج، مما يدعم الجهود المبذولة لحماية التراث العالمي <pre class=\"\"><a href=\"https://whc.unesco.org/en/syndication\" target=\"_blank\">شروط وأحكام الاستخدام</a></pre><br>",
+      "theme": [
+        "Culture"
+      ],
+      "theme_en": [
+        "Culture"
+      ],
+      "theme_fr": [
+        "Culture"
+      ],
+      "theme_es": [
+        "Cultura"
+      ],
+      "theme_ar": [
+        "الثقافة"
+      ],
+      "keyword": [
+        "World Heritage Sites",
+        "Cultural and Natural Heritage",
+        "UNESCO Conservation",
+        "SDG 11: Sustainable Cities and Communities",
+        "SDG 15: Life on Land"
+      ],
+      "keyword_en": [
+        "World Heritage Sites",
+        "Cultural and Natural Heritage",
+        "UNESCO Conservation",
+        "SDG 11: Sustainable Cities and Communities",
+        "SDG 15: Life on Land"
+      ],
+      "keyword_fr": [
+        "Sites du patrimoine mondial",
+        "Patrimoine culturel et naturel",
+        "Conservation de l'UNESCO",
+        "ODD 11 : Villes et communautés durables",
+        "ODD 15 : La vie sur terre"
+      ],
+      "keyword_es": [
+        "Patrimonio de la Humanidad",
+        "Patrimonio cultural y natural",
+        "UNESCO Conservación",
+        "ODS 11: Ciudades y comunidades sostenibles",
+        "ODS 15: La vida en la tierra"
+      ],
+      "keyword_ar": [
+        "مواقع التراث العالمي",
+        "التراث الثقافي والطبيعي",
+        "اليونسكو للمحافظة على البيئة",
+        "الهدف 11 من أهداف التنمية المستدامة: المدن والمجتمعات المستدامة",
+        "الهدف 15 من أهداف التنمية المستدامة: الحياة على الأرض"
+      ],
+      "license": "CC BY-SA 4.0",
+      "license_en": "CC BY-SA 4.0",
+      "license_fr": "CC BY-SA 4.0",
+      "license_es": "CC BY-SA 4.0",
+      "license_ar": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_url_en": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_url_fr": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_url_es": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_url_ar": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "language": "en",
+      "metadata_languages": [
+        "en",
+        "ar",
+        "fr",
+        "es"
+      ],
+      "timezone": null,
+      "modified": "2026-10-09T15:05:58+00:00",
+      "modified_updates_on_metadata_change": false,
+      "modified_updates_on_data_change": true,
+      "data_processed": "2026-10-09T15:05:58+00:00",
+      "metadata_processed": "2026-10-09T15:05:58.059000+00:00",
+      "geographic_reference": null,
+      "geographic_reference_auto": false,
+      "territory": null,
+      "geometry_types": [
+        "Point"
+      ],
+      "bbox": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                178.83453332819045,
+                71.18888887111098
+              ],
+              [
+                -179.715277813375,
+                71.18888887111098
+              ],
+              [
+                -179.715277813375,
+                -54.59472223185003
+              ],
+              [
+                178.83453332819045,
+                -54.59472223185003
+              ],
+              [
+                178.83453332819045,
+                71.18888887111098
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        },
+        "properties": {}
+      },
+      "publisher": "UNESCO",
+      "publisher_en": "UNESCO",
+      "publisher_fr": "UNESCO",
+      "publisher_es": "UNESCO",
+      "publisher_ar": "UNESCO",
+      "references": "https://whc.unesco.org/en/list/",
+      "records_count": 1273,
+      "attributions": [
+        "UNESCO"
+      ],
+      "source_domain": null,
+      "source_domain_title": null,
+      "source_domain_address": null,
+      "source_dataset": null,
+      "shared_catalog": null,
+      "federated": false,
+      "parent_domain": null,
+      "update_frequency": "ANNUAL"
+    }
+  },
+  "api_url": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001"
+}

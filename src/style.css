@@ -132,3 +132,8 @@ button:focus-visible,input:focus-visible{outline-color:#a0e7d3}
  .flight-hint,body[data-phase=canopy] #flightHint{left:14px;bottom:calc(212px + var(--bottom));transform:none;width:132px;max-width:132px;text-align:left;font-size:9px;padding:7px 8px;background:#203144bf;border-radius:10px;text-shadow:none}
  .boost-meter{left:14px;transform:none;bottom:calc(151px + var(--bottom));width:124px;text-align:left}
 }
+
+.editor-link{display:inline-block;margin:10px 8px;color:var(--ink,#332746);font-size:14px;font-weight:800;text-underline-offset:4px}.route-summary{max-height:150px;overflow:auto;text-align:left;font-size:12px;line-height:1.6;margin:8px 0}.settings [disabled]{opacity:.55;cursor:not-allowed}.result #resultNote{font-size:13px;line-height:1.45}
+
+.welcome .editor-link{color:var(--paper);min-height:44px;margin:0;display:inline-flex;align-items:center}footer a{color:#d4c3ec;text-underline-offset:2px}
+@media(max-width:650px) and (max-height:700px){.welcome{top:calc(122px + var(--top));bottom:calc(30px + var(--bottom));transform:none;max-height:none}.welcome h1{margin:12px 0;font-size:30px}.welcome p{font-size:12px;line-height:1.5;margin:8px 0 12px}.welcome .homeMeta{margin-top:12px;font-size:9px}.welcome>.text-button{padding:8px 4px;min-height:40px}.welcome .tag{padding:5px 8px;font-size:8px}}

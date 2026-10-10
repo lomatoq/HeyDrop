@@ -1,11 +1,11 @@
 {
   "name": "heydrop",
-  "version": "16.0.0",
+  "version": "17.0.0",
   "private": true,
   "scripts": {
     "build": "node build.cjs",
     "start": "node serve.cjs",
-    "test": "node tests/domain-v14.cjs && node tests/domain-v15.cjs && node tests/domain-v16.cjs && node tests/presentation-v16.cjs && node tests/streaming-v16.cjs && node tests/build-v15.cjs",
+    "test": "node tests/domain-v14.cjs && node tests/domain-v15.cjs && node tests/domain-v16.cjs && node tests/presentation-v16.cjs && node tests/streaming-v16.cjs && node tests/build-v15.cjs && node tests/controls-v17.cjs && node tests/routes-v17.cjs && node tests/custom-pack.cjs && node tests/catalogue-v17.cjs",
     "test:browser": "node tests/mechanics-v16.cjs",
     "pack": "python package-release.py"
   },

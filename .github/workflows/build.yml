@@ -23,5 +23,5 @@ jobs:
       - uses: actions/upload-artifact@v7
         with:
           name: HeyDrop-itch
-          path: dist/HeyDrop-V16-itch.zip
+          path: dist/HeyDrop-V17-itch.zip
           if-no-files-found: error

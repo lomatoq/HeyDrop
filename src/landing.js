@@ -27,7 +27,7 @@ export class LandingReveal{
   const a=world.projectUnit(s.aim),b=world.projectUnit(world.round.answer);if(!a||!b)return;
   this.positions={land:{x:a.x,y:a.y},target:{x:b.x,y:b.y}};
   const sourceP=clamp((revealTime-1.65)/.4),targetP=clamp((revealTime-1.90)/.4),lineP=smooth(1.90,2.63,revealTime);
-  const close=s.distance<35,dx=b.x-a.x,dy=b.y-a.y,len=Math.hypot(dx,dy)||1,px=-dy/len,py=dx/len,curve=Math.min(30,len*.10);
+  const close=s.distance<=25,dx=b.x-a.x,dy=b.y-a.y,len=Math.hypot(dx,dy)||1,px=-dy/len,py=dx/len,curve=Math.min(30,len*.10);
   $('targetPin').style.display=close?'none':'flex';
   const landLabel=$('landPin').querySelector('span'),targetLabel=$('targetPin').querySelector('span');
   landLabel.textContent=close?'RIGHT ON TARGET':'YOUR PARCEL';

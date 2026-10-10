@@ -38,3 +38,12 @@ This is historical low-resolution night-light imagery, not current weather or ni
 ## Process references
 
 The existing game-studio instructions read for this pass were three-webgl-game, game-ui-frontend and game-playtest. These are workflow guidance, not a separate graphics engine or a guarantee of subjective quality.
+
+## Location catalogue
+
+Location names and site coordinates: UNESCO DataHub, World Heritage List (whc001), CC BY-SA 4.0. Selection, theme tags and game formatting adapted by HeyDrop. Machu Picchu and Statue of Liberty monument coordinates: Wikidata, CC0.
+
+https://data.unesco.org/explore/dataset/whc001/
+https://creativecommons.org/licenses/by-sa/4.0/
+
+See scripts/data/CATALOGUE-PROVENANCE.md for source and adaptation details. The adapted dataset is supplied in src/catalogue-data.json; the reproducible source snapshot and selection script are in the GitHub repository. Imported representative site coordinates have not all been checked against satellite imagery.

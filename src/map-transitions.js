@@ -21,6 +21,13 @@ export function viewPrefetchJobs(source,view,velocity={lon:0,lat:0,alt:0}){
 export class MapDissolve {
  constructor(viewer,source){this.viewer=viewer;this.source=source;this.cache=new ImageryCache(source);this.time=0;this.rawLOD=2;this.phase='home';this.softness=0;this.received=0;this.lastImageAt=0;this.fadeCount=0;this.events=[];this.night=null;this.desired=2;this.base={cap:22,layer:new C.ImageryLayer(new MipProvider(source,this.cache,true),{alpha:1,maximumAnisotropy:4})};this.front={cap:22,layer:new C.ImageryLayer(new MipProvider(source,this.cache,false),{alpha:.99995,maximumAnisotropy:4})};viewer.imageryLayers.add(this.base.layer);viewer.imageryLayers.add(this.front.layer);this.next=null;this.textureFade=new TextureDissolve(this);this.prepareTask=null;}
  layers(){return [this.base.layer,this.front.layer]}
+ preloadNext(round){
+  // Only five centre tiles while the result is open; use the shared two-job
+  // background budget so the next address cannot starve the visible scene.
+  const scheme=this.source.tilingScheme,point=C.Cartographic.fromDegrees(round.lon,round.lat),jobs=[];
+  for(const z of [6,10,13,15,17]){if(z>(this.source.maximumLevel??19))continue;const tile=scheme.positionToTileXY(point,z);if(tile)jobs.push([tile.x,tile.y,z]);}
+  this.cache.replacePrefetch('next-route',jobs);return jobs.length;
+ }
  desiredLevel(alt){return alt>650000?6:alt>65000?10:alt>14000?13:alt>2900?15:alt>700?17:19}
  prepare(round){if(this.preparingSeed===`${round.seed}/${round.city}`&&this.prepareTask&&!this.cache.prewarm.released)return this.prepareTask;this.preparingSeed=`${round.seed}/${round.city}`;this.cache.unpin();this.prepareTask=this.cache.warmTour(round,innerWidth/innerHeight);this.cache.warmDecoys(round);return this.prepareTask;}
  update(alt,dt,phase){

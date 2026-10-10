@@ -1,0 +1,15 @@
+{
+  "id": "Q676203",
+  "name": "Machu Picchu",
+  "coordinates": [
+    {
+      "latitude": -13.163333333333334,
+      "longitude": -72.54555555555555,
+      "altitude": null,
+      "precision": 0.0002777777777777778,
+      "globe": "http://www.wikidata.org/entity/Q2"
+    }
+  ],
+  "source": "https://www.wikidata.org/wiki/Q676203",
+  "license": "CC0-1.0"
+}

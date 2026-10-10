@@ -5,10 +5,10 @@ import zipfile
 import json
 
 root = Path(__file__).resolve().parent
-stage = root / 'dist' / 'hey-drop-v16'
-files = ['index.html', 'assets/ui/hey-drop.svg', 'assets/ui/postal-paper.svg', 'THIRD_PARTY_NOTICES.md']
+stage = root / 'dist' / 'hey-drop-v17'
+files = ['index.html', 'assets/ui/hey-drop.svg', 'assets/ui/postal-paper.svg', 'THIRD_PARTY_NOTICES.md', 'editor.html', 'editor.bundle.js', 'src/editor.css', 'scripts/data/CATALOGUE-PROVENANCE.md', 'src/catalogue-data.json']
 stage.mkdir(parents=True, exist_ok=True)
-archive = root / 'dist' / 'HeyDrop-V16-itch.zip'
+archive = root / 'dist' / 'HeyDrop-V17-itch.zip'
 with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as output:
     for name in files:
         source, target = root / name, stage / name

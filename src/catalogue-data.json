@@ -1,0 +1,6965 @@
+[
+  {
+    "id": "whc-549",
+    "name": "18th-Century Royal Palace at Caserta with the Park, the Aqueduct of Vanvitelli, and the San Leucio Complex",
+    "lat": 41.07333,
+    "lon": 14.32639,
+    "sourceId": "549",
+    "country": "Italy",
+    "countryCode": "IT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-3",
+    "name": "Aachen Cathedral",
+    "lat": 50.7747468537,
+    "lon": 6.083919968,
+    "sourceId": "3",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1227",
+    "name": "Aapravasi Ghat",
+    "lat": -20.1586388889,
+    "lon": 57.5031666666,
+    "sourceId": "1227",
+    "country": "Mauritius",
+    "countryCode": "MU",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-230",
+    "name": "Abbey Church of Saint-Savin sur Gartempe",
+    "lat": 46.56472,
+    "lon": 0.86611,
+    "sourceId": "230",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-515",
+    "name": "Abbey and Altenmünster of Lorsch",
+    "lat": 49.65369,
+    "lon": 8.56858,
+    "sourceId": "515",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-268",
+    "name": "Abbey of St Gall",
+    "lat": 47.42333,
+    "lon": 9.37778,
+    "sourceId": "268",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-90",
+    "name": "Abu Mena",
+    "lat": 30.8358333333,
+    "lon": 29.66666667,
+    "sourceId": "90",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1207",
+    "name": "Aflaj Irrigation Systems of Oman",
+    "lat": 22.9988888889,
+    "lon": 57.5360555555,
+    "sourceId": "1207",
+    "country": "Oman",
+    "countryCode": "OM",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1209",
+    "name": "Agave Landscape and Ancient Industrial Facilities of Tequila",
+    "lat": 20.8630555555,
+    "lon": -103.7786111111,
+    "sourceId": "1209",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-251",
+    "name": "Agra Fort",
+    "lat": 27.179806,
+    "lon": 78.021528,
+    "sourceId": "251",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-15",
+    "name": "Aksum",
+    "lat": 14.13019,
+    "lon": 38.71861,
+    "sourceId": "15",
+    "country": "Ethiopia",
+    "countryCode": "ET",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-102",
+    "name": "Al Qal'a of Beni Hammad",
+    "lat": 35.81844,
+    "lon": 4.78684,
+    "sourceId": "102",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1402",
+    "name": "Al Zubarah Archaeological Site",
+    "lat": 25.9780555556,
+    "lon": 51.0297222222,
+    "sourceId": "1402",
+    "country": "Qatar",
+    "countryCode": "QA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1563",
+    "name": "Al-Ahsa Oasis, an Evolving Cultural Landscape",
+    "lat": 25.4021666667,
+    "lon": 49.6305694444,
+    "sourceId": "1563",
+    "country": "Saudi Arabia",
+    "countryCode": "SA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-185",
+    "name": "Aldabra Atoll",
+    "lat": -9.416666667,
+    "lon": 46.41666667,
+    "sourceId": "185",
+    "country": "Seychelles",
+    "countryCode": "SC",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-839",
+    "name": "Alejandro de Humboldt National Park",
+    "lat": 20.45,
+    "lon": -75.0,
+    "sourceId": "839",
+    "country": "Cuba",
+    "countryCode": "CU",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1574",
+    "name": "Amami-Oshima Island, Tokunoshima Island, Northern part of Okinawa Island, and Iriomote Island",
+    "lat": 28.2791666667,
+    "lon": 129.3783333333,
+    "sourceId": "1574",
+    "country": "Japan",
+    "countryCode": "JP",
+    "region": "Asia and the Pacific",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-162",
+    "name": "Amiens Cathedral",
+    "lat": 49.895,
+    "lon": 2.301666667,
+    "sourceId": "162",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-38",
+    "name": "Amphitheatre of El Jem",
+    "lat": 35.29639,
+    "lon": 10.70694,
+    "sourceId": "38",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-705",
+    "name": "Ancient Building Complex in the Wudang Mountains",
+    "lat": 32.46667,
+    "lon": 111.0,
+    "sourceId": "705",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-21",
+    "name": "Ancient City of Aleppo",
+    "lat": 36.1991666667,
+    "lon": 37.1627777778,
+    "sourceId": "21",
+    "country": "Syrian Arab Republic",
+    "countryCode": "SY",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-22",
+    "name": "Ancient City of Bosra",
+    "lat": 32.5191666667,
+    "lon": 36.4841666667,
+    "sourceId": "22",
+    "country": "Syrian Arab Republic",
+    "countryCode": "SY",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-20",
+    "name": "Ancient City of Damascus",
+    "lat": 33.5108333333,
+    "lon": 36.3097222222,
+    "sourceId": "20",
+    "country": "Syrian Arab Republic",
+    "countryCode": "SY",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-201",
+    "name": "Ancient City of Polonnaruwa",
+    "lat": 7.915833333,
+    "lon": 81.00055556,
+    "sourceId": "201",
+    "country": "Sri Lanka",
+    "countryCode": "LK",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1537",
+    "name": "Ancient City of Qalhat",
+    "lat": 22.6952222222,
+    "lon": 59.3781111111,
+    "sourceId": "1537",
+    "country": "Oman",
+    "countryCode": "OM",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-202",
+    "name": "Ancient City of Sigiriya",
+    "lat": 7.95,
+    "lon": 80.75,
+    "sourceId": "202",
+    "country": "Sri Lanka",
+    "countryCode": "LK",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1411",
+    "name": "Ancient City of Tauric Chersonese and its Chora",
+    "lat": 44.6108333333,
+    "lon": 33.4913888889,
+    "sourceId": "1411",
+    "country": "Ukraine",
+    "countryCode": "UA",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1602",
+    "name": "Ancient Ferrous Metallurgy Sites of Burkina Faso",
+    "lat": 12.5877583333,
+    "lon": -3.3289861111,
+    "sourceId": "1602",
+    "country": "Burkina Faso",
+    "countryCode": "BF",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1687",
+    "name": "Ancient Jericho/Tell es-Sultan",
+    "lat": 31.8713055556,
+    "lon": 35.4440555556,
+    "sourceId": "1687",
+    "country": "State of Palestine",
+    "countryCode": "PS",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-750",
+    "name": "Ancient Ksour of Ouadane, Chinguetti, Tichitt and Oualata",
+    "lat": 20.92889,
+    "lon": -11.62361,
+    "sourceId": "750",
+    "country": "Mauritania",
+    "countryCode": "MR",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-1061",
+    "name": "Ancient Maya City and Protected Tropical Forests of Calakmul, Campeche",
+    "lat": 18.0530277778,
+    "lon": -89.7372833333,
+    "sourceId": "1061",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-87",
+    "name": "Ancient Thebes with its Necropolis",
+    "lat": 25.73333,
+    "lon": 32.6,
+    "sourceId": "87",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1002",
+    "name": "Ancient Villages in Southern Anhui – Xidi and Hongcun",
+    "lat": 29.90444444,
+    "lon": 117.9875,
+    "sourceId": "1002",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-1348",
+    "name": "Ancient Villages of Northern Syria",
+    "lat": 36.3341666667,
+    "lon": 36.8441666667,
+    "sourceId": "1348",
+    "country": "Syrian Arab Republic",
+    "countryCode": "SY",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-293",
+    "name": "Anjar",
+    "lat": 33.7319444444,
+    "lon": 35.9333333333,
+    "sourceId": "293",
+    "country": "Lebanon",
+    "countryCode": "LB",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-65",
+    "name": "Antigua Guatemala",
+    "lat": 14.556504,
+    "lon": -90.73381,
+    "sourceId": "65",
+    "country": "Guatemala",
+    "countryCode": "GT",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1499",
+    "name": "Antigua Naval Dockyard and Related Archaeological Sites",
+    "lat": 17.0069444444,
+    "lon": -61.7616666667,
+    "sourceId": "1499",
+    "country": "Antigua and Barbuda",
+    "countryCode": "AG",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1463",
+    "name": "Aqueduct of Padre Tembleque Hydraulic System",
+    "lat": 19.8352777778,
+    "lon": -98.6625666667,
+    "sourceId": "1463",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1487",
+    "name": "Arab-Norman Palermo and the Cathedral Churches of Cefalú and Monreale",
+    "lat": 38.1108333333,
+    "lon": 13.3530555556,
+    "sourceId": "1487",
+    "country": "Italy",
+    "countryCode": "IT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-825",
+    "name": "Archaeological Area and the Patriarchal Basilica of Aquileia",
+    "lat": 45.76833333,
+    "lon": 13.3675,
+    "sourceId": "825",
+    "country": "Italy",
+    "countryCode": "IT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-831",
+    "name": "Archaeological Area of Agrigento",
+    "lat": 37.28972222,
+    "lon": 13.59333333,
+    "sourceId": "831",
+    "country": "Italy",
+    "countryCode": "IT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-664",
+    "name": "Archaeological Ensemble of Mérida",
+    "lat": 38.91611,
+    "lon": -6.33778,
+    "sourceId": "664",
+    "country": "Spain",
+    "countryCode": "ES",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1396",
+    "name": "Archaeological Heritage of the Lenggong Valley",
+    "lat": 5.0679083333,
+    "lon": 100.9723277778,
+    "sourceId": "1396",
+    "country": "Malaysia",
+    "countryCode": "MY",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1008",
+    "name": "Archaeological Landscape of the First Coffee Plantations in the South-East of Cuba",
+    "lat": 20.03,
+    "lon": -75.39138889,
+    "sourceId": "1008",
+    "country": "Cuba",
+    "countryCode": "CU",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-939",
+    "name": "Archaeological Monuments Zone of Xochicalco",
+    "lat": 18.803972,
+    "lon": -99.29639,
+    "sourceId": "939",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-149",
+    "name": "Archaeological Park and Ruins of Quirigua",
+    "lat": 15.27059,
+    "lon": -89.04025,
+    "sourceId": "149",
+    "country": "Guatemala",
+    "countryCode": "GT",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-138",
+    "name": "Archaeological Ruins at Moenjodaro",
+    "lat": 27.32916667,
+    "lon": 68.13888889,
+    "sourceId": "138",
+    "country": "Pakistan",
+    "countryCode": "PK",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1592",
+    "name": "Archaeological Ruins of Liangzhu City",
+    "lat": 30.3955555556,
+    "lon": 119.9908333333,
+    "sourceId": "1592",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-780",
+    "name": "Archaeological Site of Aigai (modern name Vergina)",
+    "lat": 40.47139,
+    "lon": 22.31833,
+    "sourceId": "780",
+    "country": "Greece",
+    "countryCode": "GR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-989",
+    "name": "Archaeological Site of Atapuerca",
+    "lat": 42.3497222222,
+    "lon": -3.5152777778,
+    "sourceId": "989",
+    "country": "Spain",
+    "countryCode": "ES",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-37",
+    "name": "Archaeological Site of Carthage",
+    "lat": 36.85278,
+    "lon": 10.32333,
+    "sourceId": "37",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-190",
+    "name": "Archaeological Site of Cyrene",
+    "lat": 32.825,
+    "lon": 21.85833,
+    "sourceId": "190",
+    "country": "Libya",
+    "countryCode": "LY",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-393",
+    "name": "Archaeological Site of Delphi",
+    "lat": 38.48149,
+    "lon": 22.49617,
+    "sourceId": "393",
+    "country": "Greece",
+    "countryCode": "GR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-183",
+    "name": "Archaeological Site of Leptis Magna",
+    "lat": 32.63833,
+    "lon": 14.29306,
+    "sourceId": "183",
+    "country": "Libya",
+    "countryCode": "LY",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1502",
+    "name": "Archaeological Site of Nalanda Mahavihara at Nalanda, Bihar",
+    "lat": 25.1366666667,
+    "lon": 85.4438888889,
+    "sourceId": "1502",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-517",
+    "name": "Archaeological Site of Olympia",
+    "lat": 37.64,
+    "lon": 21.634,
+    "sourceId": "517",
+    "country": "Greece",
+    "countryCode": "GR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1517",
+    "name": "Archaeological Site of Philippi",
+    "lat": 41.0147222222,
+    "lon": 24.2852777778,
+    "sourceId": "1517",
+    "country": "Greece",
+    "countryCode": "GR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-184",
+    "name": "Archaeological Site of Sabratha",
+    "lat": 32.80528,
+    "lon": 12.485,
+    "sourceId": "184",
+    "country": "Libya",
+    "countryCode": "LY",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-849",
+    "name": "Archaeological Site of Troy",
+    "lat": 39.95644,
+    "lon": 26.239,
+    "sourceId": "849",
+    "country": "Türkiye",
+    "countryCode": "TR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-836",
+    "name": "Archaeological Site of Volubilis",
+    "lat": 34.07389,
+    "lon": -5.55694,
+    "sourceId": "836",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-434",
+    "name": "Archaeological Sites of Bat, Al-Khutm and Al-Ayn",
+    "lat": 23.26986,
+    "lon": 56.745,
+    "sourceId": "434",
+    "country": "Oman",
+    "countryCode": "OM",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-941",
+    "name": "Archaeological Sites of Mycenae and Tiryns",
+    "lat": 37.73333333,
+    "lon": 22.75,
+    "sourceId": "941",
+    "country": "Greece",
+    "countryCode": "GR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1336",
+    "name": "Archaeological Sites of the Island of Meroe",
+    "lat": 16.9333333333,
+    "lon": 33.7166666667,
+    "sourceId": "1336",
+    "country": "Sudan",
+    "countryCode": "SD",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-560",
+    "name": "Archaeological Zone of Paquimé, Casas Grandes",
+    "lat": 30.367128,
+    "lon": -107.948122,
+    "sourceId": "560",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1510",
+    "name": "Archipiélago de Revillagigedo",
+    "lat": 18.7880555556,
+    "lon": -110.9752777778,
+    "sourceId": "1510",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-928",
+    "name": "Area de Conservación Guanacaste",
+    "lat": 10.85,
+    "lon": -85.61666667,
+    "sourceId": "928",
+    "country": "Costa Rica",
+    "countryCode": "CR",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-164",
+    "name": "Arles, Roman and Romanesque Monuments",
+    "lat": 43.67763889,
+    "lon": 4.630694444,
+    "sourceId": "164",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-689",
+    "name": "As-Salt - The Place of Tolerance and Urban Hospitality",
+    "lat": 32.0426111111,
+    "lon": 35.7283055556,
+    "sourceId": "689",
+    "country": "Jordan",
+    "countryCode": "JO",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-35",
+    "name": "Asante Traditional Buildings",
+    "lat": 6.4011111111,
+    "lon": -1.6258333333,
+    "sourceId": "35",
+    "country": "Ghana",
+    "countryCode": "GH",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1130",
+    "name": "Ashur (Qal'at Sherqat)",
+    "lat": 35.4566666667,
+    "lon": 43.2611111111,
+    "sourceId": "1130",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1550",
+    "name": "Asmara: A Modernist African City",
+    "lat": 15.3352777778,
+    "lon": 38.9358333333,
+    "sourceId": "1550",
+    "country": "Eritrea",
+    "countryCode": "ER",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1525",
+    "name": "Assumption Cathedral and Monastery of the town-island of Sviyazhsk",
+    "lat": 55.7702777778,
+    "lon": 48.6527777778,
+    "sourceId": "1525",
+    "country": "Russian Federation",
+    "countryCode": "RU",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-1329",
+    "name": "At-Turaif District in ad-Dir'iyah",
+    "lat": 24.7341333333,
+    "lon": 46.5724666667,
+    "sourceId": "1329",
+    "country": "Saudi Arabia",
+    "countryCode": "SA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-294",
+    "name": "Baalbek",
+    "lat": 34.0066666667,
+    "lon": 36.2041666667,
+    "sourceId": "294",
+    "country": "Lebanon",
+    "countryCode": "LB",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-278",
+    "name": "Babylon",
+    "lat": 32.5419694444,
+    "lon": 44.4208333333,
+    "sourceId": "278",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1638",
+    "name": "Badain Jaran Desert - Towers of Sand and Lakes",
+    "lat": 39.8897222222,
+    "lon": 102.2894444444,
+    "sourceId": "1638",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-433",
+    "name": "Bahla Fort",
+    "lat": 22.96417,
+    "lon": 57.30111,
+    "sourceId": "433",
+    "country": "Oman",
+    "countryCode": "OM",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-111",
+    "name": "Bale Mountains National Park",
+    "lat": 6.7977777778,
+    "lon": 39.7488888889,
+    "sourceId": "111",
+    "country": "Ethiopia",
+    "countryCode": "ET",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-575",
+    "name": "Ban Chiang Archaeological Site",
+    "lat": 17.407772,
+    "lon": 103.237589,
+    "sourceId": "575",
+    "country": "Thailand",
+    "countryCode": "TH",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-506",
+    "name": "Banc d'Arguin National Park",
+    "lat": 20.23472,
+    "lon": -16.10889,
+    "sourceId": "506",
+    "country": "Mauritania",
+    "countryCode": "MR",
+    "region": "Arab States",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1446",
+    "name": "Baptism Site “Bethany Beyond the Jordan” (Al-Maghtas)",
+    "lat": 31.8372222222,
+    "lon": 35.5527777778,
+    "sourceId": "1446",
+    "country": "Jordan",
+    "countryCode": "JO",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1575",
+    "name": "Barberton Makhonjwa Mountains",
+    "lat": -25.9738888889,
+    "lon": 31.0138888889,
+    "sourceId": "1575",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-973",
+    "name": "Bardejov Town Conservation Reserve",
+    "lat": 49.2927777778,
+    "lon": 21.2755555556,
+    "sourceId": "973",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-1407",
+    "name": "Bassari Country: Bassari, Fula and Bedik Cultural Landscapes",
+    "lat": 12.5933333333,
+    "lon": -12.8458333333,
+    "sourceId": "1407",
+    "country": "Senegal",
+    "countryCode": "SN",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-764",
+    "name": "Belize Barrier Reef Reserve System",
+    "lat": 17.190549,
+    "lon": -87.846213,
+    "sourceId": "764",
+    "country": "Belize",
+    "countryCode": "BZ",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "coastal"
+    ]
+  },
+  {
+    "id": "whc-1433",
+    "name": "Birthplace of Jesus: Church of the Nativity and the Pilgrimage Route, Bethlehem",
+    "lat": 31.7043527778,
+    "lon": 35.2075,
+    "sourceId": "1433",
+    "country": "State of Palestine",
+    "countryCode": "PS",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-425",
+    "name": "Blenheim Palace",
+    "lat": 51.84194444,
+    "lon": -1.361388889,
+    "sourceId": "425",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "countryCode": "GB",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1356",
+    "name": "Blue and John Crow Mountains",
+    "lat": 18.0775,
+    "lon": -76.5711111111,
+    "sourceId": "1356",
+    "country": "Jamaica",
+    "countryCode": "JM",
+    "region": "Latin America and the Caribbean",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-592",
+    "name": "Borobudur Temple Compounds",
+    "lat": -7.60778,
+    "lon": 110.20361,
+    "sourceId": "592",
+    "country": "Indonesia",
+    "countryCode": "ID",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-824",
+    "name": "Botanical Garden (Orto Botanico), Padua",
+    "lat": 45.39911111,
+    "lon": 11.88066667,
+    "sourceId": "824",
+    "country": "Italy",
+    "countryCode": "IT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-635",
+    "name": "Bourges Cathedral",
+    "lat": 47.08222222,
+    "lon": 2.398333333,
+    "sourceId": "635",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-910",
+    "name": "Brimstone Hill Fortress National Park",
+    "lat": 17.34694,
+    "lon": -62.83722,
+    "sourceId": "910",
+    "country": "Saint Kitts and Nevis",
+    "countryCode": "KN",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-659",
+    "name": "Brú na Bóinne - Archaeological Ensemble of the Bend of the Boyne",
+    "lat": 53.6946944444,
+    "lon": -6.4755,
+    "sourceId": "659",
+    "country": "Ireland",
+    "countryCode": "IE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-400",
+    "name": "Budapest, including the Banks of the Danube, the Buda Castle Quarter and Andrássy Avenue",
+    "lat": 47.48242,
+    "lon": 19.07067,
+    "sourceId": "400",
+    "country": "Hungary",
+    "countryCode": "HU",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-316",
+    "name": "Burgos Cathedral",
+    "lat": 42.3407333333,
+    "lon": -3.7040111111,
+    "sourceId": "316",
+    "country": "Spain",
+    "countryCode": "ES",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-682",
+    "name": "Bwindi Impenetrable National Park",
+    "lat": -1.047,
+    "lon": 29.692,
+    "sourceId": "682",
+    "country": "Uganda",
+    "countryCode": "UG",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-295",
+    "name": "Byblos",
+    "lat": 34.11917,
+    "lon": 35.6455555556,
+    "sourceId": "295",
+    "country": "Lebanon",
+    "countryCode": "LB",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1351",
+    "name": "Camino Real de Tierra Adentro",
+    "lat": 22.6080555556,
+    "lon": -102.3791666667,
+    "sourceId": "1351",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-701",
+    "name": "Canaima National Park",
+    "lat": 5.337994,
+    "lon": -62.037883,
+    "sourceId": "701",
+    "country": "Venezuela (Bolivarian Republic of)",
+    "countryCode": "VE",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-496",
+    "name": "Canterbury Cathedral, St Augustine's Abbey, and St Martin's Church",
+    "lat": 51.28,
+    "lon": 1.083333333,
+    "sourceId": "496",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "countryCode": "GB",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1135",
+    "name": "Capital Cities and Tombs of the Ancient Koguryo Kingdom",
+    "lat": 41.15694444,
+    "lon": 126.1872222,
+    "sourceId": "1135",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-847",
+    "name": "Castle of the Teutonic Order in Malbork",
+    "lat": 54.041,
+    "lon": 19.0297222222,
+    "sourceId": "847",
+    "country": "Poland",
+    "countryCode": "PL",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-374",
+    "name": "Castles and Town Walls of King Edward in Gwynedd",
+    "lat": 53.13972222,
+    "lon": -4.276944444,
+    "sourceId": "374",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "countryCode": "GB",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-288",
+    "name": "Castles of Augustusburg and Falkenlust at Brühl",
+    "lat": 50.82502778,
+    "lon": 6.909777778,
+    "sourceId": "288",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1011",
+    "name": "Cathedral and Churches of Echmiatsin and the Archaeological Site of Zvartnots",
+    "lat": 40.15931,
+    "lon": 44.29514,
+    "sourceId": "1011",
+    "country": "Armenia",
+    "countryCode": "AM",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-601",
+    "name": "Cathedral of Notre-Dame, Former Abbey of Saint-Rémi and Palace of Tau, Reims",
+    "lat": 49.25333333,
+    "lon": 4.032777778,
+    "sourceId": "601",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-383",
+    "name": "Cathedral, Alcázar and Archivo de Indias in Seville",
+    "lat": 37.38384,
+    "lon": -5.99155,
+    "sourceId": "383",
+    "country": "Spain",
+    "countryCode": "ES",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-827",
+    "name": "Cathedral, Torre Civica and Piazza Grande, Modena",
+    "lat": 44.64624,
+    "lon": 10.92568,
+    "sourceId": "827",
+    "country": "Italy",
+    "countryCode": "IT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-998",
+    "name": "Central Amazon Conservation Complex",
+    "lat": -2.333333333,
+    "lon": -62.00833333,
+    "sourceId": "998",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1017",
+    "name": "Central Suriname Nature Reserve",
+    "lat": 4.0,
+    "lon": -56.5,
+    "sourceId": "1017",
+    "country": "Suriname",
+    "countryCode": "SR",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1250",
+    "name": "Central University City Campus of the Universidad Nacional Autónoma de México (UNAM)",
+    "lat": 19.3322222222,
+    "lon": -99.1880555555,
+    "sourceId": "1250",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-206",
+    "name": "Central Zone of the Town of Angra do Heroismo in the Azores",
+    "lat": 38.655,
+    "lon": -27.22,
+    "sourceId": "206",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-366",
+    "name": "Chan Chan Archaeological Zone",
+    "lat": -8.107836,
+    "lon": -79.074737,
+    "sourceId": "366",
+    "country": "Peru",
+    "countryCode": "PE",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-816",
+    "name": "Changdeokgung Palace Complex",
+    "lat": 37.5788888889,
+    "lon": 126.9911111111,
+    "sourceId": "816",
+    "country": "Republic of Korea",
+    "countryCode": "KR",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1624",
+    "name": "Chankillo Archaeoastronomical Complex",
+    "lat": -9.5568611111,
+    "lon": -78.2359166667,
+    "sourceId": "1624",
+    "country": "Peru",
+    "countryCode": "PE",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-81",
+    "name": "Chartres Cathedral",
+    "lat": 48.4475,
+    "lon": 1.487222222,
+    "sourceId": "81",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-330",
+    "name": "Chavin (Archaeological Site)",
+    "lat": -9.5927725444,
+    "lon": -77.1784535027,
+    "sourceId": "330",
+    "country": "Peru",
+    "countryCode": "PE",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1174",
+    "name": "Chiribiquete National Park – “The Maloca of the Jaguar”",
+    "lat": 0.5252777778,
+    "lon": -72.7972222222,
+    "sourceId": "1174",
+    "country": "Colombia",
+    "countryCode": "CO",
+    "region": "Latin America and the Caribbean",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-476",
+    "name": "Chongoni Rock-Art Area",
+    "lat": -14.2185207713,
+    "lon": 34.2070738323,
+    "sourceId": "476",
+    "country": "Malawi",
+    "countryCode": "MW",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-762",
+    "name": "Church Town of Gammelstad, Luleå",
+    "lat": 65.64611,
+    "lon": 22.02861,
+    "sourceId": "762",
+    "country": "Sweden",
+    "countryCode": "SE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-971",
+    "name": "Churches of Chiloé",
+    "lat": -42.5,
+    "lon": -73.76666667,
+    "sourceId": "971",
+    "country": "Chile",
+    "countryCode": "CL",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1310",
+    "name": "Cidade Velha, Historic Centre of Ribeira Grande",
+    "lat": 14.9151388889,
+    "lon": -23.6051944444,
+    "sourceId": "1310",
+    "country": "Cabo Verde",
+    "countryCode": "CV",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-165",
+    "name": "Cistercian Abbey of Fontenay",
+    "lat": 47.63944,
+    "lon": 4.38911,
+    "sourceId": "165",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1070",
+    "name": "Citadel, Ancient City and Fortress Buildings of Derbent",
+    "lat": 42.0558333333,
+    "lon": 48.2827777778,
+    "sourceId": "1070",
+    "country": "Russian Federation",
+    "countryCode": "RU",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-273",
+    "name": "City of Cuzco",
+    "lat": -13.517276,
+    "lon": -71.980004,
+    "sourceId": "273",
+    "country": "Peru",
+    "countryCode": "PE",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-420",
+    "name": "City of Potosí",
+    "lat": -19.599112,
+    "lon": -65.749813,
+    "sourceId": "420",
+    "country": "Bolivia (Plurinational State of)",
+    "countryCode": "BO",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-2",
+    "name": "City of Quito",
+    "lat": -0.22,
+    "lon": -78.5120833333,
+    "sourceId": "2",
+    "country": "Ecuador",
+    "countryCode": "EC",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-986",
+    "name": "Ciudad Universitaria de Caracas",
+    "lat": 10.49073,
+    "lon": -66.89068,
+    "sourceId": "986",
+    "country": "Venezuela (Bolivarian Republic of)",
+    "countryCode": "VE",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-813",
+    "name": "Classical Gardens of Suzhou",
+    "lat": 31.31666667,
+    "lon": 120.45,
+    "sourceId": "813",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-516",
+    "name": "Cliff of Bandiagara (Land of the Dogons)",
+    "lat": 14.33333,
+    "lon": -3.41667,
+    "sourceId": "516",
+    "country": "Mali",
+    "countryCode": "ML",
+    "region": "Africa",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-820",
+    "name": "Cocos Island National Park",
+    "lat": 5.533333333,
+    "lon": -87.06666667,
+    "sourceId": "820",
+    "country": "Costa Rica",
+    "countryCode": "CR",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-1121",
+    "name": "Coffee Cultural Landscape of Colombia",
+    "lat": 4.889476,
+    "lon": -75.773082,
+    "sourceId": "1121",
+    "country": "Colombia",
+    "countryCode": "CO",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1138",
+    "name": "Coiba National Park and its Special Zone of Marine Protection",
+    "lat": 7.433,
+    "lon": -81.766,
+    "sourceId": "1138",
+    "country": "Panama",
+    "countryCode": "PA",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-535",
+    "name": "Collegiate Church, Castle and Old Town of Quedlinburg",
+    "lat": 51.78333,
+    "lon": 11.15,
+    "sourceId": "535",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-292",
+    "name": "Cologne Cathedral",
+    "lat": 50.94111111,
+    "lon": 6.957222222,
+    "sourceId": "292",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-526",
+    "name": "Colonial City of Santo Domingo",
+    "lat": 18.472394,
+    "lon": -69.885841,
+    "sourceId": "526",
+    "country": "Dominican Republic",
+    "countryCode": "DO",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-227",
+    "name": "Comoé National Park",
+    "lat": 9.0,
+    "lon": -4.0,
+    "sourceId": "227",
+    "country": "Côte d'Ivoire",
+    "countryCode": "CI",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-265",
+    "name": "Convent of Christ in Tomar",
+    "lat": 39.60472,
+    "lon": -8.4175,
+    "sourceId": "265",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-658",
+    "name": "Coro and its Port",
+    "lat": 11.409794,
+    "lon": -69.679228,
+    "sourceId": "658",
+    "country": "Venezuela (Bolivarian Republic of)",
+    "countryCode": "VE",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1229",
+    "name": "Crac des Chevaliers and Qal’at Salah El-Din",
+    "lat": 34.7566666667,
+    "lon": 36.2944444444,
+    "sourceId": "1229",
+    "country": "Syrian Arab Republic",
+    "countryCode": "SY",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-936",
+    "name": "Cueva de las Manos, Río Pinturas",
+    "lat": -47.15,
+    "lon": -70.66666667,
+    "sourceId": "936",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1343",
+    "name": "Cultural Sites of Al Ain (Hafit, Hili, Bidaa Bint Saud and Oases Areas)",
+    "lat": 24.0677777778,
+    "lon": 55.8063888889,
+    "sourceId": "1343",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-906",
+    "name": "Dacian Fortresses of the Orastie Mountains",
+    "lat": 45.62305556,
+    "lon": 23.31194444,
+    "sourceId": "906",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-159",
+    "name": "Darien National Park",
+    "lat": 7.736111111,
+    "lon": -77.54722222,
+    "sourceId": "159",
+    "country": "Panama",
+    "countryCode": "PA",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-889",
+    "name": "Desembarco del Granma National Park",
+    "lat": 19.88333,
+    "lon": -77.63333,
+    "sourceId": "889",
+    "country": "Cuba",
+    "countryCode": "CU",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1542",
+    "name": "Dilmun Burial Mounds",
+    "lat": 26.1497222222,
+    "lon": 50.5127777778,
+    "sourceId": "1542",
+    "country": "Bahrain",
+    "countryCode": "BH",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1745",
+    "name": "Diy-Gid-Biy Cultural Landscape of the Mandara Mountains",
+    "lat": 10.9033333333,
+    "lon": 13.7955555556,
+    "sourceId": "1745",
+    "country": "Cameroon",
+    "countryCode": "CM",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1488",
+    "name": "Diyarbakır Fortress and Hevsel Gardens Cultural Landscape",
+    "lat": 37.9031,
+    "lon": 40.2393083333,
+    "sourceId": "1488",
+    "country": "Türkiye",
+    "countryCode": "TR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-407",
+    "name": "Dja Faunal Reserve",
+    "lat": 3.125,
+    "lon": 12.983,
+    "sourceId": "407",
+    "country": "Cameroon",
+    "countryCode": "CM",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1640",
+    "name": "Djerba: Testimony to a settlement pattern in an island territory",
+    "lat": 33.7924194444,
+    "lon": 11.0039583333,
+    "sourceId": "1640",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-25",
+    "name": "Djoudj National Bird Sanctuary",
+    "lat": 16.414602,
+    "lon": -16.237906,
+    "sourceId": "25",
+    "country": "Senegal",
+    "countryCode": "SN",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-191",
+    "name": "Djémila",
+    "lat": 36.32056,
+    "lon": 5.73667,
+    "sourceId": "191",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-794",
+    "name": "Dougga / Thugga",
+    "lat": 36.42361,
+    "lon": 9.22028,
+    "sourceId": "794",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-370",
+    "name": "Durham Castle and Cathedral",
+    "lat": 54.77472222,
+    "lon": -1.576111111,
+    "sourceId": "370",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "countryCode": "GB",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1681",
+    "name": "ESMA Museum and Site of Memory – Former Clandestine Centre of Detention, Torture and Extermination",
+    "lat": -34.5366416667,
+    "lon": -58.4653333333,
+    "sourceId": "1681",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-702",
+    "name": "Earliest 16th-Century Monasteries on the Slopes of Popocatepetl",
+    "lat": 18.9347222222,
+    "lon": -98.8977777778,
+    "sourceId": "702",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1410",
+    "name": "El Pinacate and Gran Desierto de Altar Biosphere Reserve",
+    "lat": 32.0,
+    "lon": -113.9166666667,
+    "sourceId": "1410",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-631",
+    "name": "El Tajin, Pre-Hispanic City",
+    "lat": 20.446095,
+    "lon": -97.377642,
+    "sourceId": "631",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1475",
+    "name": "Ennedi Massif: Natural and Cultural Landscape",
+    "lat": 17.0416666667,
+    "lon": 21.8627777778,
+    "sourceId": "1475",
+    "country": "Chad",
+    "countryCode": "TD",
+    "region": "Africa",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-982",
+    "name": "Ensemble of the Ferapontov Monastery",
+    "lat": 59.95,
+    "lon": 38.56666667,
+    "sourceId": "982",
+    "country": "Russian Federation",
+    "countryCode": "RU",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1437",
+    "name": "Erbil Citadel",
+    "lat": 36.1911111111,
+    "lon": 44.0091666667,
+    "sourceId": "1437",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-19",
+    "name": "Fasil Ghebbi, Gondar Region",
+    "lat": 12.607909,
+    "lon": 37.4697,
+    "sourceId": "19",
+    "country": "Ethiopia",
+    "countryCode": "ET",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-255",
+    "name": "Fatehpur Sikri",
+    "lat": 27.097528,
+    "lon": 77.6665,
+    "sourceId": "255",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-1735",
+    "name": "Faya Palaeolandscape",
+    "lat": 25.0828055556,
+    "lon": 55.8065833333,
+    "sourceId": "1735",
+    "country": "United Arab Emirates",
+    "countryCode": "AE",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-692",
+    "name": "Forest Massif of Odzala-Kokoua",
+    "lat": 1.3355555556,
+    "lon": 14.8602777778,
+    "sourceId": "692",
+    "country": "Congo",
+    "countryCode": "CG",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1295",
+    "name": "Fort Jesus, Mombasa",
+    "lat": -4.0627777778,
+    "lon": 39.6794444444,
+    "sourceId": "1295",
+    "country": "Kenya",
+    "countryCode": "KE",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-171",
+    "name": "Fort and Shalamar Gardens in Lahore",
+    "lat": 31.59027778,
+    "lon": 74.30972222,
+    "sourceId": "171",
+    "country": "Pakistan",
+    "countryCode": "PK",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-135",
+    "name": "Fortifications on the Caribbean Side of Panama: Portobelo-San Lorenzo",
+    "lat": 9.553888889,
+    "lon": -79.65583333,
+    "sourceId": "135",
+    "country": "Panama",
+    "countryCode": "PA",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-583",
+    "name": "Fortress of Suomenlinna",
+    "lat": 60.14722,
+    "lon": 24.98722,
+    "sourceId": "583",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-34",
+    "name": "Forts and Castles, Volta, Greater Accra, Central and Western Regions",
+    "lat": 5.39103,
+    "lon": -0.49361,
+    "sourceId": "34",
+    "country": "Ghana",
+    "countryCode": "GH",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-915",
+    "name": "Fossil Hominid Sites of South Africa",
+    "lat": -24.15861,
+    "lon": 29.17694,
+    "sourceId": "915",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1079",
+    "name": "Franciscan Missions in the Sierra Gorda of Querétaro",
+    "lat": 21.20438889,
+    "lon": -99.46411111,
+    "sourceId": "1079",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1464",
+    "name": "Fray Bentos Industrial Landscape",
+    "lat": -33.1177777778,
+    "lon": -58.3316666667,
+    "sourceId": "1464",
+    "country": "Uruguay",
+    "countryCode": "UY",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-883",
+    "name": "Fuerte de Samaipata",
+    "lat": -18.178323,
+    "lon": -63.820485,
+    "sourceId": "883",
+    "country": "Bolivia (Plurinational State of)",
+    "countryCode": "BO",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1",
+    "name": "Galápagos Islands",
+    "lat": -0.68986,
+    "lon": -90.501319,
+    "sourceId": "1",
+    "country": "Ecuador",
+    "countryCode": "EC",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-1253",
+    "name": "Gamzigrad-Romuliana, Palace of Galerius",
+    "lat": 43.8993055556,
+    "lon": 22.1861111111,
+    "sourceId": "1253",
+    "country": "Serbia",
+    "countryCode": "RS",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-534",
+    "name": "Garden Kingdom of Dessau-Wörlitz",
+    "lat": 51.8425,
+    "lon": 12.42083,
+    "sourceId": "534",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-860",
+    "name": "Gardens and Castle at Kroměříž",
+    "lat": 49.3,
+    "lon": 17.37722222,
+    "sourceId": "860",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1367",
+    "name": "Garrison Border Town of Elvas and its Fortifications",
+    "lat": 38.8806194444,
+    "lon": -7.1633222222,
+    "sourceId": "1367",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-1073",
+    "name": "Gebel Barkal and the Sites of the Napatan Region",
+    "lat": 18.537,
+    "lon": 31.8280277778,
+    "sourceId": "1073",
+    "country": "Sudan",
+    "countryCode": "SD",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-710",
+    "name": "Gelati Monastery",
+    "lat": 42.2947222222,
+    "lon": 42.7683333333,
+    "sourceId": "710",
+    "country": "Georgia",
+    "countryCode": "GE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1746",
+    "name": "Gola-Tiwai Complex",
+    "lat": 7.5411666667,
+    "lon": -11.3478888889,
+    "sourceId": "1746",
+    "country": "Sierra Leone",
+    "countryCode": "SL",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1422",
+    "name": "Golestan Palace",
+    "lat": 35.6803666667,
+    "lon": 51.4205111111,
+    "sourceId": "1422",
+    "country": "Iran (Islamic Republic of)",
+    "countryCode": "IR",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-154",
+    "name": "Great Barrier Reef",
+    "lat": -18.28611111,
+    "lon": 147.7,
+    "sourceId": "154",
+    "country": "Australia",
+    "countryCode": "AU",
+    "region": "Asia and the Pacific",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "coastal"
+    ]
+  },
+  {
+    "id": "whc-1440",
+    "name": "Great Burkhan Khaldun Mountain and its surrounding sacred landscape",
+    "lat": 48.7619777778,
+    "lon": 109.0093277778,
+    "sourceId": "1440",
+    "country": "Mongolia",
+    "countryCode": "MN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-250",
+    "name": "Great Living Chola Temples",
+    "lat": 10.78305556,
+    "lon": 79.1325,
+    "sourceId": "250",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-358",
+    "name": "Great Mosque and Hospital of Divriği",
+    "lat": 39.371271,
+    "lon": 38.121826,
+    "sourceId": "358",
+    "country": "Türkiye",
+    "countryCode": "TR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-364",
+    "name": "Great Zimbabwe National Monument",
+    "lat": -20.271169952,
+    "lon": 30.9332689726,
+    "sourceId": "364",
+    "country": "Zimbabwe",
+    "countryCode": "ZW",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-917",
+    "name": "Greater Blue Mountains Area",
+    "lat": -33.7,
+    "lon": 150.0,
+    "sourceId": "917",
+    "country": "Australia",
+    "countryCode": "AU",
+    "region": "Asia and the Pacific",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-737",
+    "name": "Haeinsa Temple Janggyeong Panjeon, the Depositories for the Tripitaka Koreana Woodblocks",
+    "lat": 35.801672,
+    "lon": 128.098711,
+    "sourceId": "737",
+    "country": "Republic of Korea",
+    "countryCode": "KR",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-731",
+    "name": "Hanseatic Town of Visby",
+    "lat": 57.64167,
+    "lon": 18.29583,
+    "sourceId": "731",
+    "country": "Sweden",
+    "countryCode": "SE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-1189",
+    "name": "Harar Jugol, the Fortified Historic Town",
+    "lat": 9.3088888888,
+    "lon": 42.1377777777,
+    "sourceId": "1189",
+    "country": "Ethiopia",
+    "countryCode": "ET",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-277",
+    "name": "Hatra",
+    "lat": 35.58806,
+    "lon": 42.71833,
+    "sourceId": "277",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-577",
+    "name": "Heard and McDonald Islands",
+    "lat": -53.1,
+    "lon": 73.5,
+    "sourceId": "577",
+    "country": "Australia",
+    "countryCode": "AU",
+    "region": "Asia and the Pacific",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-514",
+    "name": "Heart of Neolithic Orkney",
+    "lat": 58.99605556,
+    "lon": -3.188666667,
+    "sourceId": "514",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "countryCode": "GB",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1565",
+    "name": "Hebron/Al-Khalil Old Town",
+    "lat": 31.5244444444,
+    "lon": 35.1083333333,
+    "sourceId": "1565",
+    "country": "State of Palestine",
+    "countryCode": "PS",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1293",
+    "name": "Hegra Archaeological Site (al-Hijr / Madā ͐ in Ṣāliḥ)",
+    "lat": 26.7836111111,
+    "lon": 37.955,
+    "sourceId": "1293",
+    "country": "Saudi Arabia",
+    "countryCode": "SA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1277",
+    "name": "Hiraizumi – Temples, Gardens and Archaeological Sites Representing the Buddhist Pure Land",
+    "lat": 39.0011111111,
+    "lon": 141.1077777778,
+    "sourceId": "1277",
+    "country": "Japan",
+    "countryCode": "JP",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1376",
+    "name": "Historic Bridgetown and its Garrison",
+    "lat": 13.0966666667,
+    "lon": -59.6138888889,
+    "sourceId": "1376",
+    "country": "Barbados",
+    "countryCode": "BB",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-89",
+    "name": "Historic Cairo",
+    "lat": 30.05,
+    "lon": 31.26111,
+    "sourceId": "89",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1268",
+    "name": "Historic Centre of Agadez",
+    "lat": 16.9736111111,
+    "lon": 7.9913888889,
+    "sourceId": "1268",
+    "country": "Niger",
+    "countryCode": "NE",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-228",
+    "name": "Historic Centre of Avignon: Papal Palace, Episcopal Ensemble and Avignon Bridge",
+    "lat": 43.95277778,
+    "lon": 4.806111111,
+    "sourceId": "228",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-602",
+    "name": "Historic Centre of Bukhara",
+    "lat": 39.77472,
+    "lon": 64.42861,
+    "sourceId": "602",
+    "country": "Uzbekistan",
+    "countryCode": "UZ",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1270",
+    "name": "Historic Centre of Camagüey",
+    "lat": 21.3786111111,
+    "lon": -77.9186111111,
+    "sourceId": "1270",
+    "country": "Cuba",
+    "countryCode": "CU",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-500",
+    "name": "Historic Centre of Lima",
+    "lat": -12.046542,
+    "lon": -77.0304,
+    "sourceId": "500",
+    "country": "Peru",
+    "countryCode": "PE",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1110",
+    "name": "Historic Centre of Macao",
+    "lat": 22.1912919444,
+    "lon": 113.5364611111,
+    "sourceId": "1110",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-412",
+    "name": "Historic Centre of Mexico City and Xochimilco",
+    "lat": 19.41833,
+    "lon": -99.13278,
+    "sourceId": "412",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-585",
+    "name": "Historic Centre of Morelia",
+    "lat": 19.700927,
+    "lon": -101.190376,
+    "sourceId": "585",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-415",
+    "name": "Historic Centre of Oaxaca and Archaeological Site of Monte Albán",
+    "lat": 17.061579,
+    "lon": -96.725885,
+    "sourceId": "415",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-755",
+    "name": "Historic Centre of Oporto, Luiz I Bridge and Monastery of Serra do Pilar",
+    "lat": 41.14166667,
+    "lon": -8.616666667,
+    "sourceId": "755",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-416",
+    "name": "Historic Centre of Puebla",
+    "lat": 19.045967,
+    "lon": -98.197769,
+    "sourceId": "416",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-309",
+    "name": "Historic Centre of Salvador de Bahia",
+    "lat": -12.972917,
+    "lon": -38.512981,
+    "sourceId": "309",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-550",
+    "name": "Historic Centre of San Gimignano",
+    "lat": 43.46806,
+    "lon": 11.04167,
+    "sourceId": "550",
+    "country": "Italy",
+    "countryCode": "IT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-863",
+    "name": "Historic Centre of Santa Ana de los Ríos de Cuenca",
+    "lat": -2.897447,
+    "lon": -79.004382,
+    "sourceId": "863",
+    "country": "Ecuador",
+    "countryCode": "EC",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-742",
+    "name": "Historic Centre of Santa Cruz de Mompox",
+    "lat": 9.240492,
+    "lon": -74.423084,
+    "sourceId": "742",
+    "country": "Colombia",
+    "countryCode": "CO",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-885",
+    "name": "Historic Centre of Shakhrisyabz",
+    "lat": 39.05,
+    "lon": 66.83333,
+    "sourceId": "885",
+    "country": "Uzbekistan",
+    "countryCode": "UZ",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1549",
+    "name": "Historic Centre of Sheki with the Khan’s Palace",
+    "lat": 41.2033333333,
+    "lon": 47.1875,
+    "sourceId": "1549",
+    "country": "Azerbaijan",
+    "countryCode": "AZ",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-902",
+    "name": "Historic Centre of Sighişoara",
+    "lat": 46.21777778,
+    "lon": 24.79222222,
+    "sourceId": "902",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-821",
+    "name": "Historic Centre of São Luís",
+    "lat": -2.530054,
+    "lon": -44.303369,
+    "sourceId": "821",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-621",
+    "name": "Historic Centre of Telč",
+    "lat": 49.1841388889,
+    "lon": 15.4539722222,
+    "sourceId": "621",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-828",
+    "name": "Historic Centre of Urbino",
+    "lat": 43.725,
+    "lon": 12.63333,
+    "sourceId": "828",
+    "country": "Italy",
+    "countryCode": "IT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-676",
+    "name": "Historic Centre of Zacatecas",
+    "lat": 22.775484,
+    "lon": -102.573531,
+    "sourceId": "676",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-789",
+    "name": "Historic Centre of the City of Pienza",
+    "lat": 43.07694444,
+    "lon": 11.67861111,
+    "sourceId": "789",
+    "country": "Italy",
+    "countryCode": "IT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-890",
+    "name": "Historic Centre of the Town of Diamantina",
+    "lat": -18.244776,
+    "lon": -43.59768,
+    "sourceId": "890",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-993",
+    "name": "Historic Centre of the Town of Goiás",
+    "lat": -15.934231,
+    "lon": -50.140164,
+    "sourceId": "993",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-189",
+    "name": "Historic Centre of the Town of Olinda",
+    "lat": -8.013333333,
+    "lon": -34.845,
+    "sourceId": "189",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-617",
+    "name": "Historic Centre of Český Krumlov",
+    "lat": 48.8106944444,
+    "lon": 14.3150277778,
+    "sourceId": "617",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-793",
+    "name": "Historic City of Meknes",
+    "lat": 33.88333,
+    "lon": -5.55833,
+    "sourceId": "793",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-566",
+    "name": "Historic City of Sucre",
+    "lat": -19.04799,
+    "lon": -65.259592,
+    "sourceId": "566",
+    "country": "Bolivia (Plurinational State of)",
+    "countryCode": "BO",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-707",
+    "name": "Historic Ensemble of the Potala Palace, Lhasa",
+    "lat": 29.65792,
+    "lon": 91.11717,
+    "sourceId": "707",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-895",
+    "name": "Historic Fortified Town of Campeche",
+    "lat": 19.84639,
+    "lon": -90.53722,
+    "sourceId": "895",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-940",
+    "name": "Historic Inner City of Paramaribo",
+    "lat": 5.82611,
+    "lon": -55.15,
+    "sourceId": "940",
+    "country": "Suriname",
+    "countryCode": "SR",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1361",
+    "name": "Historic Jeddah, the Gate to Makkah",
+    "lat": 21.4838888889,
+    "lon": 39.1875,
+    "sourceId": "1361",
+    "country": "Saudi Arabia",
+    "countryCode": "SA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-792",
+    "name": "Historic Monuments Zone of Querétaro",
+    "lat": 20.593292,
+    "lon": -100.392135,
+    "sourceId": "792",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-862",
+    "name": "Historic Monuments Zone of Tlacotalpan",
+    "lat": 18.613459,
+    "lon": -95.658676,
+    "sourceId": "862",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-321",
+    "name": "Historic Mosque City of Bagerhat",
+    "lat": 22.66667,
+    "lon": 89.8,
+    "sourceId": "321",
+    "country": "Bangladesh",
+    "countryCode": "BD",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-747",
+    "name": "Historic Quarter of the City of Colonia del Sacramento",
+    "lat": -34.47119,
+    "lon": -57.849898,
+    "sourceId": "747",
+    "country": "Uruguay",
+    "countryCode": "UY",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-959",
+    "name": "Historic Quarter of the Seaport City of Valparaíso",
+    "lat": -33.04063889,
+    "lon": -71.628,
+    "sourceId": "959",
+    "country": "Chile",
+    "countryCode": "CL",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-618",
+    "name": "Historic Town of Banská Štiavnica and the Technical Monuments in its Vicinity",
+    "lat": 48.46111,
+    "lon": 18.9,
+    "sourceId": "618",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-1322",
+    "name": "Historic Town of Grand-Bassam",
+    "lat": 5.1958333333,
+    "lon": -3.7363888889,
+    "sourceId": "1322",
+    "country": "Côte d'Ivoire",
+    "countryCode": "CI",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-482",
+    "name": "Historic Town of Guanajuato and Adjacent Mines",
+    "lat": 21.01694,
+    "lon": -101.25556,
+    "sourceId": "482",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-124",
+    "name": "Historic Town of Ouro Preto",
+    "lat": -20.38888889,
+    "lon": -43.50555556,
+    "sourceId": "124",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-983",
+    "name": "Historic Town of St George and Related Fortifications, Bermuda",
+    "lat": 32.37944444,
+    "lon": -64.67777778,
+    "sourceId": "983",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "countryCode": "GB",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-574",
+    "name": "Historic Town of Sukhothai and Associated Historic Towns",
+    "lat": 17.00722,
+    "lon": 99.78972,
+    "sourceId": "574",
+    "country": "Thailand",
+    "countryCode": "TH",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-611",
+    "name": "Historic Town of Zabid",
+    "lat": 14.1953333333,
+    "lon": 43.3155277778,
+    "sourceId": "611",
+    "country": "Yemen",
+    "countryCode": "YE",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-1324",
+    "name": "Historic Villages of Korea: Hahoe and Yangdong",
+    "lat": 36.5391666667,
+    "lon": 128.5166666667,
+    "sourceId": "1324",
+    "country": "Republic of Korea",
+    "countryCode": "KR",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-734",
+    "name": "Historic Villages of Shirakawa-go and Gokayama",
+    "lat": 36.4,
+    "lon": 136.8833333,
+    "sourceId": "734",
+    "country": "Japan",
+    "countryCode": "JP",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-781",
+    "name": "Historic Walled Town of Cuenca",
+    "lat": 40.07662,
+    "lon": -2.13174,
+    "sourceId": "781",
+    "country": "Spain",
+    "countryCode": "ES",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-1016",
+    "name": "Historical Centre of the City of Arequipa",
+    "lat": -16.398353,
+    "lon": -71.536777,
+    "sourceId": "1016",
+    "country": "Peru",
+    "countryCode": "PE",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-97",
+    "name": "Historical Complex of Split with the Palace of Diocletian",
+    "lat": 43.5088888889,
+    "lon": 16.4391666667,
+    "sourceId": "97",
+    "country": "Croatia",
+    "countryCode": "HR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-861",
+    "name": "Holašovice Historic Village",
+    "lat": 48.9696388889,
+    "lon": 14.2726111111,
+    "sourceId": "861",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-815",
+    "name": "Hospicio Cabañas, Guadalajara",
+    "lat": 20.676888,
+    "lon": -103.337798,
+    "sourceId": "815",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-333",
+    "name": "Huascarán National Park",
+    "lat": -9.33333,
+    "lon": -77.4,
+    "sourceId": "333",
+    "country": "Peru",
+    "countryCode": "PE",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1676",
+    "name": "Human Rights, Liberation and Reconciliation: Nelson Mandela Legacy Sites",
+    "lat": -25.7406916667,
+    "lon": 28.2117916667,
+    "sourceId": "1676",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-597",
+    "name": "Hurezi Monastery",
+    "lat": 45.1697222222,
+    "lon": 24.0072222222,
+    "sourceId": "597",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-817",
+    "name": "Hwaseong Fortress",
+    "lat": 37.27222,
+    "lon": 127.00833,
+    "sourceId": "817",
+    "country": "Republic of Korea",
+    "countryCode": "KR",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-8",
+    "name": "Ichkeul National Park",
+    "lat": 37.16361,
+    "lon": 9.67472,
+    "sourceId": "8",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "region": "Arab States",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-439",
+    "name": "Imperial Palaces of the Ming and Qing Dynasties in Beijing and Shenyang",
+    "lat": 41.79416667,
+    "lon": 123.4469444,
+    "sourceId": "439",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-26",
+    "name": "Island of Gorée",
+    "lat": 14.66722,
+    "lon": -17.40083,
+    "sourceId": "26",
+    "country": "Senegal",
+    "countryCode": "SN",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns",
+      "islands",
+      "coastal"
+    ]
+  },
+  {
+    "id": "whc-599",
+    "name": "Island of Mozambique",
+    "lat": -15.03417,
+    "lon": 40.73583,
+    "sourceId": "599",
+    "country": "Mozambique",
+    "countryCode": "MZ",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns",
+      "islands",
+      "coastal"
+    ]
+  },
+  {
+    "id": "whc-956",
+    "name": "Island of Saint-Louis",
+    "lat": 16.02778,
+    "lon": -16.50444,
+    "sourceId": "956",
+    "country": "Senegal",
+    "countryCode": "SN",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-1653",
+    "name": "Ivindo National Park",
+    "lat": 0.113,
+    "lon": 12.648,
+    "sourceId": "1653",
+    "country": "Gabon",
+    "countryCode": "GA",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1264",
+    "name": "Jeju Volcanic Island and Lava Tubes",
+    "lat": 33.4688888889,
+    "lon": 126.7202777777,
+    "sourceId": "1264",
+    "country": "Republic of Korea",
+    "countryCode": "KR",
+    "region": "Asia and the Pacific",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-1632",
+    "name": "Jomon Prehistoric Sites in Northern Japan",
+    "lat": 41.0655555556,
+    "lon": 140.5522222222,
+    "sourceId": "1632",
+    "country": "Japan",
+    "countryCode": "JP",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-675",
+    "name": "Joya de Cerén Archaeological Site",
+    "lat": 13.8275,
+    "lon": -89.36916667,
+    "sourceId": "675",
+    "country": "El Salvador",
+    "countryCode": "SV",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-137",
+    "name": "Kahuzi-Biega National Park",
+    "lat": -2.334053,
+    "lon": 28.180743,
+    "sourceId": "137",
+    "country": "Democratic Republic of the Congo",
+    "countryCode": "CD",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1112",
+    "name": "Kaiping Diaolou and Villages",
+    "lat": 22.2855194444,
+    "lon": 112.5658611111,
+    "sourceId": "1112",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-499",
+    "name": "Kairouan",
+    "lat": 35.68167,
+    "lon": 10.10389,
+    "sourceId": "499",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1570",
+    "name": "Kakatiya Rudreshwara (Ramappa) Temple, Telangana",
+    "lat": 18.2591333333,
+    "lon": 79.9432055556,
+    "sourceId": "1570",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-565",
+    "name": "Kasbah of Algiers",
+    "lat": 36.78333,
+    "lon": 3.06028,
+    "sourceId": "565",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1060",
+    "name": "Kenya Lake System in the Great Rift Valley",
+    "lat": -0.4425,
+    "lon": 36.24,
+    "sourceId": "1060",
+    "country": "Kenya",
+    "countryCode": "KE",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-365",
+    "name": "Khami Ruins National Monument",
+    "lat": -20.15833333,
+    "lon": 28.37666667,
+    "sourceId": "365",
+    "country": "Zimbabwe",
+    "countryCode": "ZW",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-403",
+    "name": "Kilimanjaro National Park",
+    "lat": -3.06667,
+    "lon": 37.36667,
+    "sourceId": "403",
+    "country": "United Republic of Tanzania",
+    "countryCode": "TZ",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1667",
+    "name": "Koh Ker: Archaeological Site of Ancient Lingapura or Chok Gargyar",
+    "lat": 13.7830555556,
+    "lon": 104.5372222222,
+    "sourceId": "1667",
+    "country": "Cambodia",
+    "countryCode": "KH",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1183",
+    "name": "Kondoa Rock-Art Sites",
+    "lat": -4.7244444444,
+    "lon": 35.8338888888,
+    "sourceId": "1183",
+    "country": "United Republic of Tanzania",
+    "countryCode": "TZ",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1333",
+    "name": "Konso Cultural Landscape",
+    "lat": 5.3,
+    "lon": 37.4,
+    "sourceId": "1333",
+    "country": "Ethiopia",
+    "countryCode": "ET",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1140",
+    "name": "Koutammakou, the Land of the Batammariba",
+    "lat": 10.1480833333,
+    "lon": 1.1002222222,
+    "sourceId": "1140",
+    "country": "Togo, Benin",
+    "countryCode": "TG, BJ",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-696",
+    "name": "Kronborg Castle",
+    "lat": 56.03889,
+    "lon": 12.62083333,
+    "sourceId": "696",
+    "country": "Denmark",
+    "countryCode": "DK",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1599",
+    "name": "Krzemionki Prehistoric Striped Flint Mining Region",
+    "lat": 50.9679722222,
+    "lon": 21.5023055556,
+    "sourceId": "1599",
+    "country": "Poland",
+    "countryCode": "PL",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-444",
+    "name": "Ksar of Ait-Ben-Haddou",
+    "lat": 31.04722,
+    "lon": -7.12889,
+    "sourceId": "444",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-761",
+    "name": "Kunta Kinteh Island and Related Sites",
+    "lat": 13.31616667,
+    "lon": -16.35719444,
+    "sourceId": "761",
+    "country": "Gambia",
+    "countryCode": "GM",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-732",
+    "name": "Kutná Hora: Historical Town Centre with the Church of St Barbara and the Cathedral of Our Lady at Sedlec",
+    "lat": 49.95,
+    "lon": 15.2666666667,
+    "sourceId": "732",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-527",
+    "name": "Kyiv: Saint-Sophia Cathedral and Related Monastic Buildings, Kyiv-Pechersk Lavra",
+    "lat": 50.45258,
+    "lon": 30.51686,
+    "sourceId": "527",
+    "country": "Ukraine",
+    "countryCode": "UA",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-289",
+    "name": "Lake Malawi National Park",
+    "lat": -14.03333,
+    "lon": 34.88333,
+    "sourceId": "289",
+    "country": "Malawi",
+    "countryCode": "MW",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-801",
+    "name": "Lake Turkana National Parks",
+    "lat": 3.051305556,
+    "lon": 36.50366667,
+    "sourceId": "801",
+    "country": "Kenya",
+    "countryCode": "KE",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1400",
+    "name": "Lakes of Ounianga",
+    "lat": 19.055,
+    "lon": 20.5055555556,
+    "sourceId": "1400",
+    "country": "Chad",
+    "countryCode": "TD",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1055",
+    "name": "Lamu Old Town",
+    "lat": -2.284444444,
+    "lon": 40.8525,
+    "sourceId": "1055",
+    "country": "Kenya",
+    "countryCode": "KE",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns",
+      "coastal"
+    ]
+  },
+  {
+    "id": "whc-1010",
+    "name": "Land of Frankincense",
+    "lat": 18.25333,
+    "lon": 53.64759,
+    "sourceId": "1010",
+    "country": "Oman",
+    "countryCode": "OM",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1700",
+    "name": "Landmarks of the Ancient Kingdom of Saba, Marib",
+    "lat": 15.4268777778,
+    "lon": 45.3352277778,
+    "sourceId": "1700",
+    "country": "Yemen",
+    "countryCode": "YE",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1259",
+    "name": "Le Morne Cultural Landscape",
+    "lat": -20.4519444444,
+    "lon": 57.3283333333,
+    "sourceId": "1259",
+    "country": "Mauritius",
+    "countryCode": "MU",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1399",
+    "name": "Levuka Historical Port Town",
+    "lat": -17.6833777778,
+    "lon": 178.8345333333,
+    "sourceId": "1399",
+    "country": "Fiji",
+    "countryCode": "FJ",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns",
+      "coastal"
+    ]
+  },
+  {
+    "id": "whc-1236",
+    "name": "León Cathedral",
+    "lat": 12.435,
+    "lon": -86.8780555556,
+    "sourceId": "1236",
+    "country": "Nicaragua",
+    "countryCode": "NI",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-901",
+    "name": "Litomyšl Castle",
+    "lat": 49.87361,
+    "lon": 16.31444,
+    "sourceId": "901",
+    "country": "Czechia",
+    "countryCode": "CZ",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-186",
+    "name": "Lord Howe Island Group",
+    "lat": -31.56555556,
+    "lon": 159.0883333,
+    "sourceId": "186",
+    "country": "Australia",
+    "countryCode": "AU",
+    "region": "Asia and the Pacific",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-10",
+    "name": "Lower Valley of the Awash",
+    "lat": 11.10006,
+    "lon": 40.57939,
+    "sourceId": "10",
+    "country": "Ethiopia",
+    "countryCode": "ET",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-17",
+    "name": "Lower Valley of the Omo",
+    "lat": 4.8,
+    "lon": 35.96666667,
+    "sourceId": "17",
+    "country": "Ethiopia",
+    "countryCode": "ET",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-188",
+    "name": "M'Zab Valley",
+    "lat": 32.48333,
+    "lon": 3.68333,
+    "sourceId": "188",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "machu-picchu",
+    "name": "Machu Picchu",
+    "lat": -13.163333333333334,
+    "lon": -72.54555555555555,
+    "sourceId": "274",
+    "country": "Peru",
+    "countryCode": "PE",
+    "region": "Latin America and the Caribbean",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature",
+      "ancient"
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q676203",
+    "coordinateScope": "monument-point",
+    "coordinateLicense": "CC0-1.0"
+  },
+  {
+    "id": "whc-629",
+    "name": "Macquarie Island",
+    "lat": -54.59472222,
+    "lon": 158.8955556,
+    "sourceId": "629",
+    "country": "Australia",
+    "countryCode": "AU",
+    "region": "Asia and the Pacific",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-1056",
+    "name": "Mahabodhi Temple Complex at Bodh Gaya",
+    "lat": 24.69528,
+    "lon": 84.99389,
+    "sourceId": "1056",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-985",
+    "name": "Maloti-Drakensberg Park",
+    "lat": -29.7652777778,
+    "lon": 29.1230555556,
+    "sourceId": "985",
+    "country": "Lesotho, South Africa",
+    "countryCode": "LS, ZA",
+    "region": "Africa",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1216",
+    "name": "Malpelo Fauna and Flora Sanctuary",
+    "lat": 4.003344,
+    "lon": -81.607572,
+    "sourceId": "1216",
+    "country": "Colombia",
+    "countryCode": "CO",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-302",
+    "name": "Mana Pools National Park, Sapi and Chewore Safari Areas",
+    "lat": -15.81944444,
+    "lon": 29.40805556,
+    "sourceId": "302",
+    "country": "Zimbabwe",
+    "countryCode": "ZW",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-338",
+    "name": "Manas Wildlife Sanctuary",
+    "lat": 26.725,
+    "lon": 91.03055556,
+    "sourceId": "338",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "Asia and the Pacific",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-475",
+    "name": "Manovo-Gounda St Floris National Park",
+    "lat": 9.0,
+    "lon": 21.5,
+    "sourceId": "475",
+    "country": "Central African Republic",
+    "countryCode": "CF",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1099",
+    "name": "Mapungubwe Cultural Landscape",
+    "lat": -22.1925,
+    "lon": 29.23889,
+    "sourceId": "1099",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1379",
+    "name": "Margravial Opera House Bayreuth",
+    "lat": 49.9443931107,
+    "lon": 11.5784979437,
+    "sourceId": "1379",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-306",
+    "name": "Matobo Hills",
+    "lat": -20.5,
+    "lon": 28.5,
+    "sourceId": "306",
+    "country": "Zimbabwe",
+    "countryCode": "ZW",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-546",
+    "name": "Maulbronn Monastery Complex",
+    "lat": 49.00083,
+    "lon": 8.81306,
+    "sourceId": "546",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1511",
+    "name": "Mbanza Kongo, Vestiges of the Capital of the former Kingdom of Kongo",
+    "lat": -6.2688888889,
+    "lon": 14.2497222222,
+    "sourceId": "1511",
+    "country": "Angola",
+    "countryCode": "AO",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-175",
+    "name": "Medici Villas and Gardens in Tuscany",
+    "lat": 43.8577777778,
+    "lon": 11.3041666667,
+    "sourceId": "175",
+    "country": "Italy",
+    "countryCode": "IT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-753",
+    "name": "Medina of Essaouira (formerly Mogador)",
+    "lat": 31.5141111111,
+    "lon": -9.7703055556,
+    "sourceId": "753",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-170",
+    "name": "Medina of Fez",
+    "lat": 34.06111,
+    "lon": -4.97778,
+    "sourceId": "170",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-331",
+    "name": "Medina of Marrakesh",
+    "lat": 31.63139,
+    "lon": -7.98667,
+    "sourceId": "331",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-498",
+    "name": "Medina of Sousse",
+    "lat": 35.82778,
+    "lon": 10.63861,
+    "sourceId": "498",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-36",
+    "name": "Medina of Tunis",
+    "lat": 36.81667,
+    "lon": 10.16667,
+    "sourceId": "36",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-837",
+    "name": "Medina of Tétouan (formerly known as Titawin)",
+    "lat": 35.57083,
+    "lon": -5.36667,
+    "sourceId": "837",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1587",
+    "name": "Megalithic Jar Sites in Xiengkhuang – Plain of Jars",
+    "lat": 19.4310555556,
+    "lon": 103.1522222222,
+    "sourceId": "1587",
+    "country": "Lao People's Democratic Republic",
+    "countryCode": "LA",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-132",
+    "name": "Megalithic Temples of Malta",
+    "lat": 36.04908,
+    "lon": 14.26947,
+    "sourceId": "132",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1725",
+    "name": "Megaliths of Carnac and of the shores of Morbihan",
+    "lat": 47.6161111111,
+    "lon": -3.0872222222,
+    "sourceId": "1725",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-13",
+    "name": "Melka Kunture and Balchit: Archaeological and Palaeontological Sites in the Highland Area of Ethiopia",
+    "lat": 8.7034722222,
+    "lon": 38.5990833333,
+    "sourceId": "13",
+    "country": "Ethiopia",
+    "countryCode": "ET",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1586",
+    "name": "Memorial sites of the Genocide: Nyamata, Murambi, Gisozi and Bisesero",
+    "lat": -2.4555277778,
+    "lon": 29.5677222222,
+    "sourceId": "1586",
+    "country": "Rwanda",
+    "countryCode": "RW",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-758",
+    "name": "Millenary Benedictine Abbey of Pannonhalma and its Natural Environment",
+    "lat": 47.55889,
+    "lon": 17.78444,
+    "sourceId": "758",
+    "country": "Hungary",
+    "countryCode": "HU",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-625",
+    "name": "Mir Castle Complex",
+    "lat": 53.45108333,
+    "lon": 26.47272222,
+    "sourceId": "625",
+    "country": "Belarus",
+    "countryCode": "BY",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-318",
+    "name": "Monastery and Site of the Escurial, Madrid",
+    "lat": 40.5891111111,
+    "lon": -4.14775,
+    "sourceId": "318",
+    "country": "Spain",
+    "countryCode": "ES",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-505",
+    "name": "Monastery of Alcobaça",
+    "lat": 39.55,
+    "lon": -8.97667,
+    "sourceId": "505",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-264",
+    "name": "Monastery of Batalha",
+    "lat": 39.65778,
+    "lon": -8.82694,
+    "sourceId": "264",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-960",
+    "name": "Monastery of Geghard and the Upper Azat Valley",
+    "lat": 40.140439,
+    "lon": 44.818525,
+    "sourceId": "960",
+    "country": "Armenia",
+    "countryCode": "AM",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-263",
+    "name": "Monastery of the Hieronymites and Tower of Belém in Lisbon",
+    "lat": 38.69194,
+    "lon": -9.21583,
+    "sourceId": "263",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-974",
+    "name": "Monastic Island of Reichenau",
+    "lat": 47.69872222,
+    "lon": 9.061305556,
+    "sourceId": "974",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-509",
+    "name": "Mosi-oa-Tunya / Victoria Falls",
+    "lat": -17.92453,
+    "lon": 25.85539,
+    "sourceId": "509",
+    "country": "Zambia, Zimbabwe",
+    "countryCode": "ZM, ZW",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-779",
+    "name": "Mount Emei Scenic Area, including Leshan Giant Buddha Scenic Area",
+    "lat": 29.5449,
+    "lon": 103.76925,
+    "sourceId": "779",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1403",
+    "name": "Mount Hamiguitan Range Wildlife Sanctuary",
+    "lat": 6.7171694444,
+    "lon": 126.1734305556,
+    "sourceId": "1403",
+    "country": "Philippines",
+    "countryCode": "PH",
+    "region": "Asia and the Pacific",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-547",
+    "name": "Mount Huangshan",
+    "lat": 30.145333,
+    "lon": 118.155083,
+    "sourceId": "547",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-800",
+    "name": "Mount Kenya National Park/Natural Forest",
+    "lat": -0.155,
+    "lon": 37.3155555556,
+    "sourceId": "800",
+    "country": "Kenya",
+    "countryCode": "KE",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1642",
+    "name": "Mount Kumgang – Diamond Mountain from the Sea",
+    "lat": 38.6602777778,
+    "lon": 128.1375,
+    "sourceId": "1642",
+    "country": "Democratic People's Republic of Korea",
+    "countryCode": "KP",
+    "region": "Asia and the Pacific",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1201",
+    "name": "Mount Mulanje Cultural Landscape",
+    "lat": -15.9116666667,
+    "lon": 35.6580555556,
+    "sourceId": "1201",
+    "country": "Malawi",
+    "countryCode": "MW",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-155",
+    "name": "Mount Nimba Strict Nature Reserve",
+    "lat": 7.60318,
+    "lon": -8.39097,
+    "sourceId": "155",
+    "country": "Guinea, Côte d'Ivoire",
+    "countryCode": "GN, CI",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1001",
+    "name": "Mount Qingcheng and the Dujiangyan Irrigation System",
+    "lat": 31.00167,
+    "lon": 103.60528,
+    "sourceId": "1001",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1292",
+    "name": "Mount Sanqingshan National Park",
+    "lat": 28.9158333333,
+    "lon": 118.0644444444,
+    "sourceId": "1292",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-437",
+    "name": "Mount Taishan",
+    "lat": 36.26667,
+    "lon": 117.1,
+    "sourceId": "437",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1279",
+    "name": "Mount Wutai",
+    "lat": 39.0305555556,
+    "lon": 113.5633333333,
+    "sourceId": "1279",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-911",
+    "name": "Mount Wuyi",
+    "lat": 27.7263888889,
+    "lon": 117.7252777778,
+    "sourceId": "911",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-944",
+    "name": "Mountain Railways of India",
+    "lat": 11.51028,
+    "lon": 76.93583,
+    "sourceId": "944",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-703",
+    "name": "Mountain Resort and its Outlying Temples, Chengde",
+    "lat": 40.98694,
+    "lon": 117.93833,
+    "sourceId": "703",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1593",
+    "name": "Mozu-Furuichi Kofun Group: Mounded Tombs of Ancient Japan",
+    "lat": 34.5622222222,
+    "lon": 135.6094444444,
+    "sourceId": "1593",
+    "country": "Japan",
+    "countryCode": "JP",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-949",
+    "name": "My Son Sanctuary",
+    "lat": 15.773843,
+    "lon": 108.109169,
+    "sourceId": "949",
+    "country": "Viet Nam",
+    "countryCode": "VN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1430",
+    "name": "Namib Sand Sea",
+    "lat": -24.8852777778,
+    "lon": 15.4077777778,
+    "sourceId": "1430",
+    "country": "Namibia",
+    "countryCode": "NA",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1663",
+    "name": "National Archaeological Park Tak’alik Ab’aj",
+    "lat": 14.6386111111,
+    "lon": -91.7325,
+    "sourceId": "1663",
+    "country": "Guatemala",
+    "countryCode": "GT",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1470",
+    "name": "Naumburg Cathedral",
+    "lat": 51.1548055556,
+    "lon": 11.804,
+    "sourceId": "1470",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1006",
+    "name": "Neolithic Flint Mines at Spiennes (Mons)",
+    "lat": 50.4201134823,
+    "lon": 3.9822689106,
+    "sourceId": "1006",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1405",
+    "name": "Neolithic Site of Çatalhöyük",
+    "lat": 37.6666666667,
+    "lon": 32.8280555556,
+    "sourceId": "1405",
+    "country": "Türkiye",
+    "countryCode": "TR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-877",
+    "name": "New Zealand Sub-Antarctic Islands",
+    "lat": -50.75,
+    "lon": 166.1044444,
+    "sourceId": "877",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "region": "Asia and the Pacific",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-39",
+    "name": "Ngorongoro Conservation Area",
+    "lat": -3.18722,
+    "lon": 35.54083,
+    "sourceId": "39",
+    "country": "United Republic of Tanzania",
+    "countryCode": "TZ",
+    "region": "Africa",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-153",
+    "name": "Niokolo-Koba National Park",
+    "lat": 13.011,
+    "lon": -13.018,
+    "sourceId": "153",
+    "country": "Senegal",
+    "countryCode": "SN",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1009",
+    "name": "Notre-Dame Cathedral in Tournai",
+    "lat": 50.60603,
+    "lon": 3.38926,
+    "sourceId": "1009",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-88",
+    "name": "Nubian Monuments from Abu Simbel to Philae",
+    "lat": 22.3372222222,
+    "lon": 31.6258055556,
+    "sourceId": "88",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1697",
+    "name": "Nyungwe National Park",
+    "lat": -2.5553,
+    "lon": 29.2473333333,
+    "sourceId": "1697",
+    "country": "Rwanda",
+    "countryCode": "RW",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1362",
+    "name": "Ogasawara Islands",
+    "lat": 27.7183333333,
+    "lon": 142.0997222222,
+    "sourceId": "1362",
+    "country": "Japan",
+    "countryCode": "JP",
+    "region": "Asia and the Pacific",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-718",
+    "name": "Okapi Wildlife Reserve",
+    "lat": 2.0,
+    "lon": 28.5,
+    "sourceId": "718",
+    "country": "Democratic Republic of the Congo",
+    "countryCode": "CD",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1432",
+    "name": "Okavango Delta",
+    "lat": -19.2833333333,
+    "lon": 22.9,
+    "sourceId": "1432",
+    "country": "Botswana",
+    "countryCode": "BW",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-148",
+    "name": "Old City of Jerusalem and its Walls",
+    "lat": 31.7777777778,
+    "lon": 35.2316666667,
+    "sourceId": "148",
+    "country": "Jerusalem (Site proposed by Jordan)",
+    "countryCode": "",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-385",
+    "name": "Old City of Sana'a",
+    "lat": 15.35555556,
+    "lon": 44.20805556,
+    "sourceId": "385",
+    "country": "Yemen",
+    "countryCode": "YE",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-741",
+    "name": "Old Town Lunenburg",
+    "lat": 44.37611111,
+    "lon": -64.30916667,
+    "sourceId": "741",
+    "country": "Canada",
+    "countryCode": "CA",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns",
+      "coastal"
+    ]
+  },
+  {
+    "id": "whc-451",
+    "name": "Old Town of Galle and its Fortifications",
+    "lat": 6.028051,
+    "lon": 80.216346,
+    "sourceId": "451",
+    "country": "Sri Lanka",
+    "countryCode": "LK",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "coastal"
+    ]
+  },
+  {
+    "id": "whc-362",
+    "name": "Old Town of Ghadamès",
+    "lat": 30.13333333,
+    "lon": 9.5,
+    "sourceId": "362",
+    "country": "Libya",
+    "countryCode": "LY",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-811",
+    "name": "Old Town of Lijiang",
+    "lat": 26.86667,
+    "lon": 100.23333,
+    "sourceId": "811",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-311",
+    "name": "Old Town of Segovia and its Aqueduct",
+    "lat": 40.94847222,
+    "lon": -4.11675,
+    "sourceId": "311",
+    "country": "Spain",
+    "countryCode": "ES",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-116",
+    "name": "Old Towns of Djenné",
+    "lat": 13.90639,
+    "lon": -4.555,
+    "sourceId": "116",
+    "country": "Mali",
+    "countryCode": "ML",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-401",
+    "name": "Old Village of Hollókő and its Surroundings",
+    "lat": 47.99444,
+    "lon": 19.52917,
+    "sourceId": "401",
+    "country": "Hungary",
+    "countryCode": "HU",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-192",
+    "name": "Old Walled City of Shibam",
+    "lat": 15.92694,
+    "lon": 48.62667,
+    "sourceId": "192",
+    "country": "Yemen",
+    "countryCode": "YE",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1658",
+    "name": "Old town of Kuldīga",
+    "lat": 56.96775,
+    "lon": 21.9715277778,
+    "sourceId": "1658",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-1118",
+    "name": "Osun-Osogbo Sacred Grove",
+    "lat": 7.75556,
+    "lon": 4.55222,
+    "sourceId": "1118",
+    "country": "Nigeria",
+    "countryCode": "NG",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-850",
+    "name": "Ouadi Qadisha (the Holy Valley) and the Forest of the Cedars of God (Horsh Arz el-Rab)",
+    "lat": 34.2538888889,
+    "lon": 36.9511111111,
+    "sourceId": "850",
+    "country": "Lebanon",
+    "countryCode": "LB",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-786",
+    "name": "Palace and Gardens of Schönbrunn",
+    "lat": 48.18666667,
+    "lon": 16.31333333,
+    "sourceId": "786",
+    "country": "Austria",
+    "countryCode": "AT",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-160",
+    "name": "Palace and Park of Fontainebleau",
+    "lat": 48.40194444,
+    "lon": 2.698055556,
+    "sourceId": "160",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-426",
+    "name": "Palace of Westminster and Westminster Abbey including Saint Margaret’s Church",
+    "lat": 51.499,
+    "lon": -0.127,
+    "sourceId": "426",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "countryCode": "GB",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-532",
+    "name": "Palaces and Parks of Potsdam and Berlin",
+    "lat": 52.4,
+    "lon": 13.03333333,
+    "sourceId": "532",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1492",
+    "name": "Palestine: Land of Olives and Vines – Cultural Landscape of Southern Jerusalem, Battir",
+    "lat": 31.7163888889,
+    "lon": 35.1588888889,
+    "sourceId": "1492",
+    "country": "State of Palestine",
+    "countryCode": "PS",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1242",
+    "name": "Parthian Fortresses of Nisa",
+    "lat": 37.9997222222,
+    "lon": 58.1986111111,
+    "sourceId": "1242",
+    "country": "Turkmenistan",
+    "countryCode": "TM",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1364",
+    "name": "Pearling, Testimony of an Island Economy",
+    "lat": 26.24128,
+    "lon": 50.61351,
+    "sourceId": "1364",
+    "country": "Bahrain",
+    "countryCode": "BH",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-114",
+    "name": "Persepolis",
+    "lat": 29.93444,
+    "lon": 52.89028,
+    "sourceId": "114",
+    "country": "Iran (Islamic Republic of)",
+    "countryCode": "IR",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1747",
+    "name": "Peruaçu River Canyon",
+    "lat": -15.075,
+    "lon": -44.2083333333,
+    "sourceId": "1747",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1145",
+    "name": "Petroglyphs of the Archaeological Landscape of Tanbaly",
+    "lat": 43.80333333,
+    "lon": 75.535,
+    "sourceId": "1145",
+    "country": "Kazakhstan",
+    "countryCode": "KZ",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1325",
+    "name": "Phoenix Islands Protected Area",
+    "lat": -3.864454,
+    "lon": -172.650203,
+    "sourceId": "1325",
+    "country": "Kiribati",
+    "countryCode": "KI",
+    "region": "Asia and the Pacific",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-518",
+    "name": "Poblet Monastery",
+    "lat": 41.38083,
+    "lon": 1.0825,
+    "sourceId": "518",
+    "country": "Spain",
+    "countryCode": "ES",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-344",
+    "name": "Pont du Gard (Roman Aqueduct)",
+    "lat": 43.94722222,
+    "lon": 4.535277778,
+    "sourceId": "344",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1303",
+    "name": "Pontcysyllte Aqueduct and Canal",
+    "lat": 52.9702777778,
+    "lon": -3.0877777778,
+    "sourceId": "1303",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "countryCode": "GB",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-285",
+    "name": "Port, Fortresses and Group of Monuments, Cartagena",
+    "lat": 10.41666667,
+    "lon": -75.53333333,
+    "sourceId": "285",
+    "country": "Colombia",
+    "countryCode": "CO",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1058",
+    "name": "Portuguese City of Mazagan (El Jadida)",
+    "lat": 33.25667,
+    "lon": -8.50194,
+    "sourceId": "1058",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-642",
+    "name": "Prambanan Temple Compounds",
+    "lat": -7.75222,
+    "lon": 110.49167,
+    "sourceId": "642",
+    "country": "Indonesia",
+    "countryCode": "ID",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-411",
+    "name": "Pre-Hispanic City and National Park of Palenque",
+    "lat": 17.48333,
+    "lon": -92.05,
+    "sourceId": "411",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-414",
+    "name": "Pre-Hispanic City of Teotihuacan",
+    "lat": 19.69167,
+    "lon": -98.84167,
+    "sourceId": "414",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-791",
+    "name": "Pre-Hispanic Town of Uxmal",
+    "lat": 20.36166667,
+    "lon": -89.77027778,
+    "sourceId": "791",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1352",
+    "name": "Prehistoric Caves of Yagul and Mitla in the Central Valley of Oaxaca",
+    "lat": 16.9508333333,
+    "lon": -96.4211111111,
+    "sourceId": "1352",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1363",
+    "name": "Prehistoric Pile Dwellings around the Alps",
+    "lat": 47.2783333333,
+    "lon": 8.2075,
+    "sourceId": "1363",
+    "country": "Italy, France, Austria, Slovenia, Switzerland, Germany",
+    "countryCode": "IT, FR, AT, SI, CH, DE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1744",
+    "name": "Prehistoric Sites of the Khorramabad Valley",
+    "lat": 33.4921083333,
+    "lon": 48.3455722222,
+    "sourceId": "1744",
+    "country": "Iran (Islamic Republic of)",
+    "countryCode": "IR",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1274",
+    "name": "Protective town of San Miguel and the Sanctuary of Jesús Nazareno de Atotonilco",
+    "lat": 20.9144444444,
+    "lon": -100.7463888889,
+    "sourceId": "1274",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-873",
+    "name": "Provins, Town of Medieval Fairs",
+    "lat": 48.55972222,
+    "lon": 3.298888889,
+    "sourceId": "873",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-332",
+    "name": "Punic Town of Kerkuane and its Necropolis",
+    "lat": 36.94639,
+    "lon": 11.09917,
+    "sourceId": "332",
+    "country": "Tunisia",
+    "countryCode": "TN",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1444",
+    "name": "Pyu Ancient Cities",
+    "lat": 22.47,
+    "lon": 95.8186111111,
+    "sourceId": "1444",
+    "country": "Myanmar",
+    "countryCode": "MM",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1192",
+    "name": "Qal’at al-Bahrain – Ancient Harbour and Capital of Dilmun",
+    "lat": 26.23306,
+    "lon": 50.5272222222,
+    "sourceId": "1192",
+    "country": "Bahrain",
+    "countryCode": "BH",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient",
+      "coastal"
+    ]
+  },
+  {
+    "id": "whc-327",
+    "name": "Quseir Amra",
+    "lat": 31.8018055556,
+    "lon": 36.5873055556,
+    "sourceId": "327",
+    "country": "Jordan",
+    "countryCode": "JO",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1401",
+    "name": "Rabat, Modern Capital and Historic City: a Shared Heritage",
+    "lat": 34.0241666667,
+    "lon": -6.8227777778,
+    "sourceId": "1401",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1702",
+    "name": "Rachid Karami International Fair-Tripoli",
+    "lat": 34.4377777778,
+    "lon": 35.8241666667,
+    "sourceId": "1702",
+    "country": "Lebanon",
+    "countryCode": "LB",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-561",
+    "name": "Rangiri Dambulla Cave Temple",
+    "lat": 7.856666667,
+    "lon": 80.64916667,
+    "sourceId": "561",
+    "country": "Sri Lanka",
+    "countryCode": "LK",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-231",
+    "name": "Red Fort Complex",
+    "lat": 28.6555555556,
+    "lon": 77.2408333333,
+    "sourceId": "231",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-522",
+    "name": "Renaissance Monumental Ensembles of Úbeda and Baeza",
+    "lat": 38.01131,
+    "lon": -3.37122,
+    "sourceId": "522",
+    "country": "Spain",
+    "countryCode": "ES",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-1265",
+    "name": "Richtersveld Cultural and Botanical Landscape",
+    "lat": -28.6,
+    "lon": 17.2038888888,
+    "sourceId": "1265",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-216",
+    "name": "Rila Monastery",
+    "lat": 42.133298,
+    "lon": 23.340187,
+    "sourceId": "216",
+    "country": "Bulgaria",
+    "countryCode": "BG",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1100",
+    "name": "Rio de Janeiro: Carioca Landscapes between the Mountain and the Sea",
+    "lat": -22.9477777778,
+    "lon": -43.2913888889,
+    "sourceId": "1100",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-916",
+    "name": "Robben Island",
+    "lat": -33.8,
+    "lon": 18.36666667,
+    "sourceId": "916",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-1472",
+    "name": "Rock Art in the Hail Region of Saudi Arabia",
+    "lat": 28.0105555556,
+    "lon": 40.9130555556,
+    "sourceId": "1472",
+    "country": "Saudi Arabia",
+    "countryCode": "SA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1386",
+    "name": "Rock Islands Southern Lagoon",
+    "lat": 7.246925,
+    "lon": 134.3525,
+    "sourceId": "1386",
+    "country": "Palau",
+    "countryCode": "PW",
+    "region": "Asia and the Pacific",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature",
+      "islands",
+      "coastal"
+    ]
+  },
+  {
+    "id": "whc-287",
+    "name": "Rock-Art Sites of Tadrart Acacus",
+    "lat": 24.83333,
+    "lon": 10.33333,
+    "sourceId": "287",
+    "country": "Libya",
+    "countryCode": "LY",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-18",
+    "name": "Rock-Hewn Churches, Lalibela",
+    "lat": 12.02935,
+    "lon": 39.04042,
+    "sourceId": "18",
+    "country": "Ethiopia",
+    "countryCode": "ET",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-586",
+    "name": "Rohtas Fort",
+    "lat": 32.9625,
+    "lon": 73.58888889,
+    "sourceId": "586",
+    "country": "Pakistan",
+    "countryCode": "PK",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-367",
+    "name": "Roman Monuments, Cathedral of St Peter and Church of Our Lady in Trier",
+    "lat": 49.75,
+    "lon": 6.633333333,
+    "sourceId": "367",
+    "country": "Germany",
+    "countryCode": "DE",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-163",
+    "name": "Roman Theatre and its Surroundings and the Triumphal Arch of Orange",
+    "lat": 44.13572222,
+    "lon": 4.808416667,
+    "sourceId": "163",
+    "country": "France",
+    "countryCode": "FR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-987",
+    "name": "Roman Walls of Lugo",
+    "lat": 43.0106407944,
+    "lon": -7.5530699413,
+    "sourceId": "987",
+    "country": "Spain",
+    "countryCode": "ES",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-695",
+    "name": "Roskilde Cathedral",
+    "lat": 55.6426654094,
+    "lon": 12.0798998457,
+    "sourceId": "695",
+    "country": "Denmark",
+    "countryCode": "DK",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1713",
+    "name": "Royal Court of Tiébélé",
+    "lat": 11.0892222222,
+    "lon": -0.9618611111,
+    "sourceId": "1713",
+    "country": "Burkina Faso",
+    "countryCode": "BF",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1131",
+    "name": "Royal Exhibition Building and Carlton Gardens",
+    "lat": -37.80611111,
+    "lon": 144.9702778,
+    "sourceId": "1131",
+    "country": "Australia",
+    "countryCode": "AU",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-950",
+    "name": "Royal Hill of Ambohimanga",
+    "lat": -18.75917,
+    "lon": 47.56278,
+    "sourceId": "950",
+    "country": "Madagascar",
+    "countryCode": "MG",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-323",
+    "name": "Royal Palaces of Abomey",
+    "lat": 7.183333333,
+    "lon": 1.983333333,
+    "sourceId": "323",
+    "country": "Benin",
+    "countryCode": "BJ",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-144",
+    "name": "Ruins of Kilwa Kisiwani and Ruins of Songo Mnara",
+    "lat": -8.95778,
+    "lon": 39.52278,
+    "sourceId": "144",
+    "country": "United Republic of Tanzania",
+    "countryCode": "TZ",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1225",
+    "name": "Ruins of Loropéni",
+    "lat": 10.2500229431,
+    "lon": -3.5833384934,
+    "sourceId": "1225",
+    "country": "Burkina Faso",
+    "countryCode": "BF",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-684",
+    "name": "Rwenzori Mountains National Park",
+    "lat": 0.223611111,
+    "lon": 29.92416667,
+    "sourceId": "684",
+    "country": "Uganda",
+    "countryCode": "UG",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-55",
+    "name": "Røros Mining Town and the Circumference",
+    "lat": 62.5738888889,
+    "lon": 11.3855555556,
+    "sourceId": "55",
+    "country": "Norway",
+    "countryCode": "NO",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-1535",
+    "name": "Sacred Island of Okinoshima and Associated Sites in the Munakata Region",
+    "lat": 34.245,
+    "lon": 130.1055555556,
+    "sourceId": "1535",
+    "country": "Japan",
+    "countryCode": "JP",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-1698",
+    "name": "Sado Island Gold Mines",
+    "lat": 38.0408333333,
+    "lon": 138.2577777778,
+    "sourceId": "1698",
+    "country": "Japan",
+    "countryCode": "JP",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-954",
+    "name": "Saint Catherine Area",
+    "lat": 28.55623,
+    "lon": 33.97543,
+    "sourceId": "954",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1749",
+    "name": "Saint Hilarion Monastery/ Tell Umm Amer",
+    "lat": 31.4473055556,
+    "lon": 34.3663611111,
+    "sourceId": "1749",
+    "country": "State of Palestine",
+    "countryCode": "PS",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-280",
+    "name": "Salonga National Park",
+    "lat": -2.0,
+    "lon": 21.0,
+    "sourceId": "280",
+    "country": "Democratic Republic of the Congo",
+    "countryCode": "CD",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1359",
+    "name": "Saloum Delta",
+    "lat": 13.8352777778,
+    "lon": -16.4986111111,
+    "sourceId": "1359",
+    "country": "Senegal",
+    "countryCode": "SN",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1028",
+    "name": "Saltaire",
+    "lat": 53.83916667,
+    "lon": -1.788333333,
+    "sourceId": "1028",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "countryCode": "GB",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-276",
+    "name": "Samarra Archaeological City",
+    "lat": 34.3409894444,
+    "lon": 43.8235430555,
+    "sourceId": "276",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-744",
+    "name": "San Agustín Archaeological Park",
+    "lat": 1.916666667,
+    "lon": -76.23333333,
+    "sourceId": "744",
+    "country": "Colombia",
+    "countryCode": "CO",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-841",
+    "name": "San Pedro de la Roca Castle, Santiago de Cuba",
+    "lat": 19.968446,
+    "lon": -75.870441,
+    "sourceId": "841",
+    "country": "Cuba",
+    "countryCode": "CU",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-334",
+    "name": "Sanctuary of Bom Jesus do Congonhas",
+    "lat": -20.508201,
+    "lon": -43.860806,
+    "sourceId": "334",
+    "country": "Brazil",
+    "countryCode": "BR",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-262",
+    "name": "Sanganeb Marine National Park and Dungonab Bay – Mukkawar Island Marine National Park",
+    "lat": 19.7361111111,
+    "lon": 37.4430555556,
+    "sourceId": "262",
+    "country": "Sudan",
+    "countryCode": "SD",
+    "region": "Arab States",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "islands",
+      "coastal"
+    ]
+  },
+  {
+    "id": "whc-1380",
+    "name": "Sangha Trinational",
+    "lat": 2.6094444444,
+    "lon": 16.5541666667,
+    "sourceId": "1380",
+    "country": "Congo, Cameroon, Central African Republic",
+    "countryCode": "CG, CM, CF",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-199",
+    "name": "Selous Game Reserve",
+    "lat": -9.0,
+    "lon": 37.4,
+    "sourceId": "199",
+    "country": "United Republic of Tanzania",
+    "countryCode": "TZ",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-736",
+    "name": "Seokguram Grotto and Bulguksa Temple",
+    "lat": 35.791498,
+    "lon": 129.349029,
+    "sourceId": "736",
+    "country": "Republic of Korea",
+    "countryCode": "KR",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-156",
+    "name": "Serengeti National Park",
+    "lat": -2.33333,
+    "lon": 34.56667,
+    "sourceId": "156",
+    "country": "United Republic of Tanzania",
+    "countryCode": "TZ",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1214",
+    "name": "Sewell Mining Town",
+    "lat": -34.0844444444,
+    "lon": -70.3827777777,
+    "sourceId": "1214",
+    "country": "Chile",
+    "countryCode": "CL",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-913",
+    "name": "Shrines and Temples of Nikko",
+    "lat": 36.7475,
+    "lon": 139.6105556,
+    "sourceId": "913",
+    "country": "Japan",
+    "countryCode": "JP",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-9",
+    "name": "Simien National Park",
+    "lat": 13.1833333333,
+    "lon": 38.0666666667,
+    "sourceId": "9",
+    "country": "Ethiopia",
+    "countryCode": "ET",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1483",
+    "name": "Singapore Botanic Gardens",
+    "lat": 1.3152777778,
+    "lon": 103.8161111111,
+    "sourceId": "1483",
+    "country": "Singapore",
+    "countryCode": "SG",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-23",
+    "name": "Site of Palmyra",
+    "lat": 34.5541666667,
+    "lon": 38.2666666667,
+    "sourceId": "23",
+    "country": "Syrian Arab Republic",
+    "countryCode": "SY",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1263",
+    "name": "Socotra Archipelago",
+    "lat": 12.5,
+    "lon": 53.8333333333,
+    "sourceId": "1263",
+    "country": "Yemen",
+    "countryCode": "YE",
+    "region": "Arab States",
+    "category": "Natural",
+    "tags": [
+      "nature",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-886",
+    "name": "State Historical and Cultural Park “Ancient Merv”",
+    "lat": 37.70083,
+    "lon": 62.1775,
+    "sourceId": "886",
+    "country": "Turkmenistan",
+    "countryCode": "TM",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "statue-of-liberty",
+    "name": "Statue of Liberty",
+    "lat": 40.689209166667,
+    "lon": -74.044425277778,
+    "sourceId": "307",
+    "country": "United States of America",
+    "countryCode": "US",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "islands",
+      "coastal"
+    ],
+    "coordinateSource": "https://www.wikidata.org/wiki/Q9202",
+    "coordinateScope": "monument-point",
+    "coordinateLicense": "CC0-1.0"
+  },
+  {
+    "id": "whc-1226",
+    "name": "Stone Circles of Senegambia",
+    "lat": 13.6911111111,
+    "lon": -15.5225,
+    "sourceId": "1226",
+    "country": "Gambia, Senegal",
+    "countryCode": "GM, SN",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-173",
+    "name": "Stone Town of Zanzibar",
+    "lat": -6.16306,
+    "lon": 39.18917,
+    "sourceId": "173",
+    "country": "United Republic of Tanzania",
+    "countryCode": "TZ",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-373",
+    "name": "Stonehenge, Avebury and Associated Sites",
+    "lat": 51.17888889,
+    "lon": -1.825277778,
+    "sourceId": "373",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "countryCode": "GB",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1648",
+    "name": "Sudanese style mosques in northern Côte d’Ivoire",
+    "lat": 10.4903166667,
+    "lon": -6.4101666667,
+    "sourceId": "1648",
+    "country": "Côte d'Ivoire",
+    "countryCode": "CI",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-938",
+    "name": "Sukur Cultural Landscape",
+    "lat": 10.74056,
+    "lon": 13.57194,
+    "sourceId": "938",
+    "country": "Nigeria",
+    "countryCode": "NG",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-880",
+    "name": "Summer Palace, an Imperial Garden in Beijing",
+    "lat": 39.91055556,
+    "lon": 116.1411111,
+    "sourceId": "880",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-246",
+    "name": "Sun Temple, Konârak",
+    "lat": 19.8875,
+    "lon": 86.09472,
+    "sourceId": "246",
+    "country": "India",
+    "countryCode": "IN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-166",
+    "name": "Sydney Opera House",
+    "lat": -33.8566666667,
+    "lon": 151.2152777777,
+    "sourceId": "166",
+    "country": "Australia",
+    "countryCode": "AU",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-179",
+    "name": "Tassili n'Ajjer",
+    "lat": 25.5,
+    "lon": 9.0,
+    "sourceId": "179",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "region": "Arab States",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-195",
+    "name": "Taï National Park",
+    "lat": 5.6488888889,
+    "lon": -7.0952777778,
+    "sourceId": "195",
+    "country": "Côte d'Ivoire",
+    "countryCode": "CI",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1532",
+    "name": "Temple Zone of Sambor Prei Kuk, Archaeological Site of Ancient Ishanapura",
+    "lat": 12.8725,
+    "lon": 105.0430555556,
+    "sourceId": "1532",
+    "country": "Cambodia",
+    "countryCode": "KH",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-704",
+    "name": "Temple and Cemetery of Confucius and the Kong Family Mansion in Qufu",
+    "lat": 35.613215,
+    "lon": 116.994561,
+    "sourceId": "704",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-881",
+    "name": "Temple of Heaven: an Imperial Sacrificial Altar in Beijing",
+    "lat": 39.84555556,
+    "lon": 116.4447222,
+    "sourceId": "881",
+    "country": "China",
+    "countryCode": "CN",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1224",
+    "name": "Temple of Preah Vihear",
+    "lat": 14.390841,
+    "lon": 104.680325,
+    "sourceId": "1224",
+    "country": "Cambodia",
+    "countryCode": "KH",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1481",
+    "name": "The Ahwar of Southern Iraq: Refuge of Biodiversity and the Relict Landscape of the Mesopotamian Cities",
+    "lat": 31.5622222222,
+    "lon": 47.6577777778,
+    "sourceId": "1481",
+    "country": "Iraq",
+    "countryCode": "IQ",
+    "region": "Arab States",
+    "category": "Mixed",
+    "tags": [
+      "landmarks",
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-1662",
+    "name": "The Ancient Town of Si Thep and its Associated Dvaravati Monuments",
+    "lat": 15.4658166667,
+    "lon": 101.1511138889,
+    "sourceId": "1662",
+    "country": "Thailand",
+    "countryCode": "TH",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1712",
+    "name": "The Cultural Landscape of Al-Faw Archaeological Area",
+    "lat": 19.7649166667,
+    "lon": 45.1633888889,
+    "sourceId": "1712",
+    "country": "Saudi Arabia",
+    "countryCode": "SA",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1723",
+    "name": "The Emergence of Modern Human Behaviour: The Pleistocene Occupation Sites of South Africa",
+    "lat": -32.3863888889,
+    "lon": 18.4525,
+    "sourceId": "1723",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1641",
+    "name": "The Gedeo Cultural Landscape",
+    "lat": 6.2488888889,
+    "lon": 38.2877777778,
+    "sourceId": "1641",
+    "country": "Ethiopia",
+    "countryCode": "ET",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-942",
+    "name": "The Historic Centre (Chorá) with the Monastery of Saint-John the Theologian and the Cave of the Apocalypse on the Island of Pátmos",
+    "lat": 37.3,
+    "lon": 26.55,
+    "sourceId": "942",
+    "country": "Greece",
+    "countryCode": "GR",
+    "region": "Europe and North America",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns",
+      "islands"
+    ]
+  },
+  {
+    "id": "whc-1720",
+    "name": "The Historic Town and Archaeological Site of Gedi",
+    "lat": -3.3102638889,
+    "lon": 40.0172638889,
+    "sourceId": "1720",
+    "country": "Kenya",
+    "countryCode": "KE",
+    "region": "Africa",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1372",
+    "name": "The Persian Garden",
+    "lat": 30.1666666667,
+    "lon": 53.1666666667,
+    "sourceId": "1372",
+    "country": "Iran (Islamic Republic of)",
+    "countryCode": "IR",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-194",
+    "name": "Timgad",
+    "lat": 35.4841666667,
+    "lon": 6.4688611111,
+    "sourceId": "194",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-193",
+    "name": "Tipasa",
+    "lat": 36.55,
+    "lon": 2.383333333,
+    "sourceId": "193",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-479",
+    "name": "Town of Luang Prabang",
+    "lat": 19.88889,
+    "lon": 102.13333,
+    "sourceId": "479",
+    "country": "Lao People's Democratic Republic",
+    "countryCode": "LA",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "small-towns"
+    ]
+  },
+  {
+    "id": "whc-299",
+    "name": "Tyre",
+    "lat": 33.2691666667,
+    "lon": 35.1958333333,
+    "sourceId": "299",
+    "country": "Lebanon",
+    "countryCode": "LB",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1093",
+    "name": "Um er-Rasas (Kastrom Mefa'a)",
+    "lat": 31.50167,
+    "lon": 35.92056,
+    "sourceId": "1093",
+    "country": "Jordan",
+    "countryCode": "JO",
+    "region": "Arab States",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-1202",
+    "name": "Urban Historic Centre of Cienfuegos",
+    "lat": 22.145887,
+    "lon": -80.452183,
+    "sourceId": "1202",
+    "country": "Cuba",
+    "countryCode": "CU",
+    "region": "Latin America and the Caribbean",
+    "category": "Cultural",
+    "tags": [
+      "landmarks"
+    ]
+  },
+  {
+    "id": "whc-481",
+    "name": "Vat Phou and Associated Ancient Settlements within the Champasak Cultural Landscape",
+    "lat": 14.8483333333,
+    "lon": 105.8222222222,
+    "sourceId": "481",
+    "country": "Lao People's Democratic Republic",
+    "countryCode": "LA",
+    "region": "Asia and the Pacific",
+    "category": "Cultural",
+    "tags": [
+      "landmarks",
+      "ancient"
+    ]
+  },
+  {
+    "id": "whc-1162",
+    "name": "Vredefort Dome",
+    "lat": -26.86,
+    "lon": 27.26,
+    "sourceId": "1162",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "region": "Africa",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  },
+  {
+    "id": "whc-554",
+    "name": "Whale Sanctuary of El Vizcaino",
+    "lat": 27.79222,
+    "lon": -114.22778,
+    "sourceId": "554",
+    "country": "Mexico",
+    "countryCode": "MX",
+    "region": "Latin America and the Caribbean",
+    "category": "Natural",
+    "tags": [
+      "nature"
+    ]
+  }
+]

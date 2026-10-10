@@ -1,6 +1,7 @@
+import catalogue from './catalogue-data.json';
 // Authored target centres, not random addresses. Radius is in metres.
 // Sources describe the sites; coordinates target their visible satellite landmarks.
-export const LANDMARKS = [
+const LEGACY_LANDMARKS = [
  ['mont-saint-michel','Mont-Saint-Michel',48.6361,-1.5115,20,'An abbey on an island with a single causeway','80'],
  ['palmanova','Palmanova',45.9054,13.3092,40,'A town shaped like a nine-pointed star','1533'],
  ['giza','Pyramids of Giza',29.9792,31.1342,20,'Three pyramids where the desert meets the city','86'],
@@ -17,5 +18,21 @@ export const LANDMARKS = [
  ['himeji','Himeji Castle',34.8394,134.6939,15,'A white castle, moats and concentric fortifications','661'],
  ['chichen-itza','Chichen Itza',20.6843,-88.5678,15,'A stepped pyramid in a jungle clearing','483'],
  ['florence','Florence · Duomo',43.7731,11.256,15,'A red dome amid tightly packed city blocks','174'],
-].map(([id,name,lat,lon,radius,hint,unesco])=>({id,name,lat,lon,radius,hint,source:`https://whc.unesco.org/en/list/${unesco}/`}));
+].map(([id,name,lat,lon,radius,hint,unesco])=>({id,name,lat,lon,radius:0,hint,sourceId:unesco,source:`https://whc.unesco.org/en/list/${unesco}/`}));
+const LEGACY_TAGS={
+ 'mont-saint-michel':['landmarks','small-towns','islands','coastal'],palmanova:['landmarks','small-towns'],giza:['landmarks','ancient'],
+ 'taj-mahal':['landmarks'],angkor:['landmarks'],brasilia:['landmarks'],samarkand:['landmarks'],petra:['landmarks','ancient'],
+ dubrovnik:['landmarks','small-towns','coastal'],'venezia-san-marco':['landmarks','islands','coastal'],versailles:['landmarks'],
+ colosseum:['landmarks','ancient'],acropolis:['landmarks','ancient'],himeji:['landmarks'],'chichen-itza':['landmarks','ancient'],florence:['landmarks']
+};
+export const CATALOGUE_PROVENANCE=Object.freeze({
+ publisher:'UNESCO DataHub',dataset:'whc001',source:'https://data.unesco.org/explore/dataset/whc001/',
+ license:'CC BY-SA 4.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',retrieved:'2026-10-10',
+ note:'Names and site coordinates from UNESCO DataHub; editorial selection and theme tags by HeyDrop. Imported imagery has not been individually reviewed. Machu Picchu and Statue of Liberty monument coordinates from Wikidata (CC0).'
+});
+export const LANDMARKS = [
+ ...LEGACY_LANDMARKS.map(p=>({...p,tags:LEGACY_TAGS[p.id],coordinateStatus:'legacy-curated',coordinateScope:'monument-point',imageryStatus:'legacy-curated'})),
+ ...catalogue.map(p=>({...p,radius:0,source:`https://whc.unesco.org/en/list/${p.sourceId}/`,hint:`${p.category} World Heritage site · ${p.country}`,
+ coordinateSource:p.coordinateSource||CATALOGUE_PROVENANCE.source,coordinateStatus:'source-validated',coordinateScope:p.coordinateScope||'site-representative',imageryStatus:'unreviewed'}))
+];
 export const LOCATION_BY_ID = new Map(LANDMARKS.map(place=>[place.id,place]));

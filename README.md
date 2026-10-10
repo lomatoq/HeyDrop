@@ -1,106 +1,68 @@
-# HeyDrop · POST! — V16 prototype
+# HeyDrop · POST! — V17
 
 ![HeyDrop cover](assets/marketing/hey-drop-cover.png)
 
-Remember an address, find it again on a spinning Earth, and deliver a parcel from the sky.
+Remember a place, spin the Earth, and deliver a parcel to the exact spot. Five-stop themed routes, real satellite imagery, parachute flight, and a route editor. The game and editor are in English.
 
-`index.html` is the current V16 build. `baseline-v13.html`, `baseline-v14.html`, and `baseline-v15.html` preserve earlier versions for comparison. This is a playable prototype for evaluating flight feel, not a claim of release readiness.
+## Play and create
 
-## Run locally
+- Run `Start-HeyPals.cmd`, then open http://127.0.0.1:8797/.
+- Open http://127.0.0.1:8797/editor.html to create a route. Click the map or search the catalogue, name the stop, arrange the order, and choose **Play route**. Share the generated link with friends.
+- The editor saves a draft on this device and imports/exports JSON. A saved file holds up to 50 places; a playable link holds up to 20, subject to a URL size limit. No account or upload server is required.
+- For a phone on the same Wi-Fi, run `Start-HeyPals-Mobile.cmd` and open `http://<this-PC-local-IP>:8798/`. Internet is needed for map imagery and libraries. Physical-phone testing remains outstanding.
 
-- **Desktop:** run `Start-HeyPals.cmd`, then open [the local game](http://127.0.0.1:8797/).
-- **Phone on the same Wi-Fi network:** run `Start-HeyPals-Mobile.cmd`, then open `http://<computer-local-IP>:8798/`. Keep the server window open. Your network and firewall must allow the connection.
-- **Requirements:** Node.js and an internet connection for Cesium, Three.js, fonts, and satellite imagery. Opening the HTML file directly does not start the required Web Workers.
-- **Development:** run `npm ci`, then `npm run build`.
-- **Tests:** run `npm test`; with the local server running, run `npm run test:browser`. Browser tests use installed Chrome. The main smoke test supports `CHROME_PATH`.
+## What's new
 
-The launcher filenames retain their original HeyPals names.
+- **500 named places**, including Machu Picchu, the Statue of Liberty, villages, ancient sites, islands, and natural areas. Game settings show collections rather than revealing individual destinations.
+- Collections: Ancient worlds (85), Small towns & villages (48), Famous landmarks (431), Islands (30), Wild places (85), Coasts & ports (15). Tags overlap; these are not additive totals.
+- **Reproducible routes:** a shared seed selects all five built-in stops. Custom routes play in the author's order. Weather, lighting, timer, and parachute rules are fixed for the route.
+- **Orbit inertia:** release velocity comes from the last 100 ms of dragging, coasts smoothly, and stops on regrab. Stationary finger jitter no longer cancels acceleration. Input is cancelled when switching between globe navigation and flight.
+- **Clear scoring:** results explain accuracy and any parachute penalty. Final results list every delivery. Restarting an unfinished attempt records zero for that slot; a later practice attempt cannot replace it.
+- **Map preparation:** the home screen warms the actual first route stop; results prefetch five centre tiles for the next stop within the existing background request budget. Continuous parent/child tile blending and predictive view-footprint prefetch remain in use.
 
-## How to play
+## Catalogue quality and attribution
 
-Study the destination and its surroundings, locate it on the globe, and send the parcel. A session has five deliveries, worth up to 25,000 points. Replaying a round is practice: the score from the first attempt remains. Continuing after the fifth result starts a new session. Search is untimed by default; settings can enable a 24-second selection limit.
+The catalogue contains 16 previously authored locations and 484 imported source records. All destination radii are zero: the parcel targets the stored point rather than a random nearby street. The imported source coordinates have been validated against their source records, but **the satellite image at every imported point has not been manually reviewed**. A UNESCO site coordinate can represent a large property rather than a single visible monument. The editor lets authors inspect and adjust exact playable targets.
 
-By default, the camera visits two decoy locations for about two seconds each after showing the destination. All three are shown from 900 metres. Flights between them are continuous. If imagery is not ready, the game waits up to three seconds, then skips that stop. Settings also offer a mode without decoys.
+Location names and site coordinates: UNESCO DataHub, World Heritage List (whc001), CC BY-SA 4.0. Selection, theme tags and game formatting adapted by HeyDrop. Machu Picchu and Statue of Liberty monument coordinates: Wikidata, CC0.
 
-Drag the globe, use WASD or the arrow keys, or use the on-screen stick. During flight, dragging applies steering rather than moving the map directly; releasing removes that input. Tapping during flight no longer moves the parcel to a selected point.
+See [catalogue provenance](scripts/data/CATALOGUE-PROVENANCE.md), [source snapshots](scripts/data/) and [selection script](scripts/build-catalogue.py). The catalogue license applies to the adapted data; it is not a blanket license statement for the whole game. Imagery attribution remains visible in the game.
 
-The delivery button begins descent. Holding the button or an empty part of the screen smoothly accelerates the fall. Releasing a hold neither selects a location nor opens the parachute. You can open the canopy below 1,700 metres and release the parcel below 300 metres. Automatic canopy deployment is enabled by default. Pausing stops the simulation.
+## Controls and scoring
 
-A normal automatic descent takes about 50 seconds; sustained acceleration reduces it to about 19 seconds. The final drop duration depends on release height. Audio and visual effects share one motion signal, and the canopy updates once per rendered frame.
+Drag or flick the globe, or use WASD / arrow keys. In flight, drag and hold to steer; hold still to accelerate. Shift / Precision slows lateral steering. Space performs the current flight action. Esc pauses. A normal descent takes about 49.7 seconds; sustained acceleration reduces it to about 19.3 seconds. Seven weather presets and day/sunset/night lighting are available.
 
-## Locations
+Search is untimed by default; the optional timer allows 24 seconds. The memory challenge includes two decoy views. A perfect delivery earns 5,000 points within 25 m. Intermediate scores use a continuous logarithmic curve:
 
-The catalogue contains 32 places: 16 original cities and 16 landmarks with small random landing areas. The landmarks are Mont-Saint-Michel, Palmanova, Giza, the Taj Mahal, Angkor Wat, Brasília, Registan, Petra, Dubrovnik, St Mark's Square, Versailles, the Colosseum, the Acropolis, Himeji Castle, Chichén Itzá, and Florence Cathedral.
+| Distance | Accuracy points |
+|---|---:|
+| 25 m or less | 5,000 |
+| 100 m | 4,500 |
+| 1 km | 3,000 |
+| 10 km | 2,200 |
+| 100 km | 1,400 |
+| 1,000 km | 600 |
 
-Coordinates, visual clues, and UNESCO source links are in `src/locations.js`. Landmark coordinates are hand-authored; satellite coverage and image quality vary.
+Landing without a parachute reduces the accuracy score by 25%, shown separately. Shared routes currently support informal playtesting and comparing results, not a server-verified competitive leaderboard. No public community catalogue or account system is implemented.
 
-## Architecture
+## Development
 
-| Responsibility | Source |
+`npm ci`, `npm run build`, `npm test`. `npm run test:browser` checks the flight mechanics; `node tests/routes-browser-v17.cjs` checks route integration, custom pack playback, rules, recovery, and small-screen layout. Browser tests use Chrome; the route test accepts `CHROME_PATH`.
+
+`python package-release.py` builds `dist/HeyDrop-V17-itch.zip` with the game, editor, and data attribution. `index.html` and `editor.bundle.js` are generated files. Edit the source and rebuild. The production game does not enable its QA controls unless opened with `?qa`.
+
+| Module | Responsibility |
 |---|---|
-| Phases, coordinates, speed, and landing | `src/simulation.js` |
-| Memory distraction route | `src/memory-route.js` |
-| Clouds, night treatment, and atmospheric effects | `src/atmosphere.js`, `src/effects.js` |
-| Five-round scoring and replays | `src/session.js` |
-| Locations and sources | `src/locations.js` |
-| Pacing and loading budgets | `src/tuning.js` |
-| Decoded tiles, priorities, retries, and eviction | `src/tile-cache.js` |
-| Cesium imagery adapter | `src/imagery-cache.js` |
-| Globe, camera, and destination imagery readiness | `src/globe.js` |
-| Shared camera projection and local world frame | `src/flight-frame.js` |
-| Gradual imagery refinement | `src/map-transitions.js`, `src/texture-dissolve.js` |
-| Cargo rendering and visual inertia | `src/cargo.js` |
-| Pointer input, touch, and hold acceleration | `src/planet-input.js` |
-| Application integration and UI | `src/main.js`, `src/style.css`, `index.template.html` |
+| `simulation.js`, `planet-input.js` | Flight state, controls, gesture ownership and inertia |
+| `routes.js`, `session.js`, `scoring.js` | Collections, deterministic itineraries, attempts and scoring |
+| `locations.js`, `catalogue-data.json` | Sourced locations and editorial tags |
+| `custom-pack.js`, `editor.js` | Validated portable routes and map editor |
+| `flight-frame.js`, `globe.js`, `cargo.js` | Shared camera frame and rendering |
+| `tile-cache.js`, `map-transitions.js`, `texture-dissolve.js` | Image cache, preparation and LOD blending |
+| `atmosphere.js`, `effects.js`, `audio.js` | Weather and flight feedback |
 
-The simulation owns gameplay state. Cargo animation springs do not change the landing location. In V16, Cesium and Three share a camera projection and a local coordinate frame. Cargo size and position follow that common projection. The raised canopy and suspended crate form one rig; the released crate follows the simulation's height toward the selected ground point.
+## Publishing status
 
-Loading allows up to eight active requests, including at most two background requests. Visible tiles promote an existing request's priority. Both imagery layers share deduplication. Cancelled preparation cannot pin data from an old round again. The cache holds at most 420 decoded images and 160 parent fragments; Cesium's GPU cache is separate. Round readiness checks the prepared destination imagery rather than geometry detail. If the network fails, the player can explicitly continue with the available map.
+Source and downloadable builds are published in https://github.com/lomatoq/HeyDrop. The itch.io page is https://lomatoq.itch.io/heydrop, currently restricted. Its English description and cover are saved; uploading the playable ZIP remains blocked by the browser extension's local-file permission. Password setup has not been completed. GitHub Actions builds a ZIP artifact; automatic itch deployment is not configured.
 
-`FrameMetrics` records raw frame intervals, including stalls, before simulation-step clamping. Loading statistics separate queue time from time to a decoded image; they do not isolate network transfer or GPU upload time.
-
-## Measurements and validation
-
-The V13/V14 comparison used local headless Chrome at 1280×800, seed 7241, Barcelona, with separate browser contexts:
-
-| Metric | V13 | V14 |
-|---|---:|---:|
-| Destination preparation after starting | 9.55 s | 1.33 s |
-| Tile requests by destination readiness | 830 | 73 |
-| Background route | 811 tiles | 41 tiles |
-| Automatic descent through result | 105.57 s | 49.73 s |
-| p95 frame interval during the test flight | 20.8 ms | 16.7 ms |
-
-These results describe one repeatable scenario, not guaranteed frame rates on every phone. Headless measurements do not replace physical-device testing. The satellite service and the connection remain external constraints.
-
-Historical reports are in `tests/v14/performance.json` and `tests/v14/smoke.json`. `tests/domain-v14.cjs` covers 1,584 deterministic landmark rounds, timed and untimed search, landing, scoring, request deduplication, priorities, and preparation cancellation. `tests/recovery-touch-v14.cjs` covers failed detail tiles and touch scrolling in panels. Screenshots are stored in `tests/v14` and `tests/cargo`.
-
-V15 validation covered smooth hold acceleration, bounded waiting for decoy imagery, mobile settings, and 15 weather/viewport combinations without shader errors. Supporting research is in `research/v15-game-design.md`, `research/v15-graphics.md`, and `research/v15-ui.md`.
-
-V16 shared-camera validation covers 1440×900, 390×844, 320×568, and 844×390. The same world points project in Cesium and Three within 0.1 pixel. The release camera stays fixed while the cargo follows simulation height. The two canvases do not share a depth buffer; the current scene uses a surface without 3D buildings.
-
-The V15/V16 comparison recorded 2,880 frame samples over eight short runs of the same route. Warm startup was 560/556 ms; cold startup was 1,405/821 ms. Cold startup depends on the network and does not establish a general speed improvement. Both versions made 61 requests before destination readiness. No sampled frame exceeded 50 ms. These desktop headless results do not establish phone performance.
-
-Current validation commands include `npm test`, `npm run test:browser`, `node tests/cargo-shared-camera.cjs`, and `node tests/graphics-v15.cjs`. The shared-camera test supersedes the older cargo perspective test for V16.
-
-## Visual treatment and remaining checks
-
-Clouds use the Earth's surface and actual camera. Wind affects the flight path. Fog and weather change visibility during descent without hiding the destination during memorisation. At high altitude, night mode uses VIIRS imagery. Close to the surface, it uses an artistic darkening and warm accents over daytime imagery, not photographs of streets at night. The HeyDrop logo, POST! sticker, and paper texture are compact original SVG assets.
-
-A manual playtest on a physical iPhone and Android device is still needed; Safari has not been validated. Map service terms need review before commercial deployment. The texture transition adapter uses Cesium 1.133 internals and has a simpler fallback. Upgrade Cesium together with the relevant visual regression checks.
-
-Sources include the [Cesium Globe API](https://cesium.com/learn/cesiumjs/ref-doc/Globe.html), [UNESCO: Palmanova and the Venetian defensive works](https://whc.unesco.org/en/list/1533/), [Mont-Saint-Michel](https://whc.unesco.org/en/list/80/), and [Brasília](https://whc.unesco.org/en/list/445/). Further links are in the location catalogue. See `THIRD_PARTY_NOTICES.md` for licences and attribution.
-
-## Packaging and private testing
-
-`npm run pack` creates `dist/HeyDrop-V16-itch.zip`, containing `index.html` at the root, two runtime SVG assets, and attribution. It is intended for upload as an HTML game on itch.io with browser play enabled. For a private test, select Restricted access and set your own password. Internet access is required for externally hosted libraries, fonts, and satellite imagery. See itch.io's [HTML5 upload guide](https://itch.io/docs/creators/html5) and [access control guide](https://itch.io/docs/creators/access-control).
-
-- Repository: [lomatoq/HeyDrop](https://github.com/lomatoq/HeyDrop)
-- Test ZIP release: [V16 prototype](https://github.com/lomatoq/HeyDrop/releases/tag/v16-prototype)
-- Restricted itch.io page: [HeyDrop](https://lomatoq.itch.io/heydrop)
-
-GitHub Actions validates and packages the game on pushes to `main`. Automatic itch.io deployment is not configured.
-
-The itch.io page has been created with Restricted visibility. **The HTML archive has not yet been uploaded, and the password has not been set.** The browser extension requires permission to access local files, and the owner must enter the password. The embedded game will not run on itch.io until the ZIP is uploaded.
-
-Players can already copy a link to a specific destination and its settings. Synchronous rooms, a shared spectator view, and an ePals API are not implemented. A possible next step is a reproducible round sequence shared through a session code, followed by server-side scoring and rooms. The simulation can then remain common to the browser version and future mobile wrappers.
+V17 is a playtest build. Automated checks are not evidence that every catalogue location is visually good or that the game performs well on every physical phone.
