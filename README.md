@@ -63,6 +63,6 @@ Landing without a parachute reduces the accuracy score by 25%, shown separately.
 
 ## Publishing status
 
-Source and downloadable builds are published in https://github.com/lomatoq/HeyDrop. The itch.io page is https://lomatoq.itch.io/heydrop, currently restricted. Its English description and cover are saved; uploading the playable ZIP is currently blocked by itch.io requiring email verification for the account. Browser file access now works. The page has password access enabled. GitHub Actions builds a ZIP artifact; automatic itch deployment is not configured.
+Source and downloadable builds are published in https://github.com/lomatoq/HeyDrop. The itch.io page is https://lomatoq.itch.io/heydrop, currently restricted. Its English description and cover are saved; the V17 playable ZIP is uploaded and browser startup was verified on itch.io. Mobile-friendly fullscreen launch and password access are enabled. GitHub Actions builds a ZIP artifact; automatic itch deployment is not configured.
 
 V17 is a playtest build. Automated checks are not evidence that every catalogue location is visually good or that the game performs well on every physical phone.
